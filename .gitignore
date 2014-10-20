@@ -1,0 +1,6 @@
+.idea/
+.jshintrc
+node_modules
+.sass-cache/
+Gemfile.lock
+assets/sass/bootstrap
