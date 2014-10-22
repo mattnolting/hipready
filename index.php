@@ -13,6 +13,7 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/vendors/modernizr.custom.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.min.css">
 
 
@@ -24,7 +25,7 @@
 		<div class="container">
 			<div class="row">
 				<nav role="navigation">
-
+					<i class="fa fa-bars"></i>
 				</nav>
 			</div>
 		</div>
