@@ -1,11 +1,33 @@
 html {
-	background: url("../img/bg_body.jpg");
+	font-size: 100%;
 }
 
 body {
-
+	@include rem('padding', 140px 0);
+	background: url("../img/bg_body.jpg");
 }
 
 .container {
 
+}
+
+hr {
+	position: relative;
+	@include rem('margin', 40px 0);
+
+	&:before {
+		position: absolute;
+		left: 50%;
+		top: -20px;
+		margin-left: -31px;
+		content: url("../img/bg_hr.png");
+	}
+
+	&:after {
+		content: '';
+		width: 100%;
+		height: 2px;
+		display: block;
+		background: $brown;
+	}
 }

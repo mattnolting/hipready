@@ -20,6 +20,7 @@ $bootstrap-sass-asset-helper: false;
 @import "elements/buttons";
 @import "elements/fonts";
 @import "elements/typography";
+@import "elements/forms";
 
 
 // Components
@@ -31,10 +32,12 @@ $bootstrap-sass-asset-helper: false;
 @import "components/content";
 @import "components/posts";
 @import "components/primary-content";
+@import "components/modals";
+@import "components/block-content";
 
 
 // Page Templates
 //==================================================================
-//@import "page-templates/page";
+@import "page-templates/home";
 
 

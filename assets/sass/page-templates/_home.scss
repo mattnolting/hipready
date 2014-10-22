@@ -1,0 +1,15 @@
+.page-home {
+
+	.masthead {
+		background: none;
+
+		i {
+			background: none;
+		}
+	}
+
+	.logo {
+		@include rem('margin-bottom', 40px);
+	}
+}
+

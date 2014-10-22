@@ -1,0 +1,82 @@
+form {
+	color: $blue;
+
+	.row {
+
+	}
+
+	.row + .row {
+		@include media-query (sm) {
+			margin-top: 14px;
+		}
+	}
+
+	[class^="col-sm-"] {
+		@include media-query (sm_max) {
+			margin-top: 14px;
+		}
+	}
+
+	button[type="submit"], .btn.submit, input {
+		border: none;
+		@include box-shadow(inset 0 0 8px 4px rgba(0, 0, 0, 0.2));
+	}
+
+	input {
+		color: $blue;
+		@include font-size(32px);
+		width: 100%;
+		@include rem('padding', 12px 16px);
+	}
+
+	button[type="submit"], .btn.submit {
+		width: 140px;
+		height: 140px;
+		display: inline-block;
+		@include rem('margin-top', 32px);
+		background: #fff;
+		@include border-radius(50%);
+		border: 10px solid $brown;
+
+		span {
+			text-transform: uppercase;
+		}
+	}
+
+	.checkbox {
+
+		input[type="checkbox"], input[type="radio"] {
+			@include box-shadow(none);
+			width: auto;
+			float: left;
+			margin-right: 20px;
+		}
+
+		label {
+			font-weight: bold;
+		}
+	}
+
+	label {
+		color: #fff;
+		@include font-size(32px);
+		font-weight: bold;
+		line-height: 1;
+	}
+}
+
+::-webkit-input-placeholder {
+	color: #b2b2b2;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: #b2b2b2;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #b2b2b2;
+}
+
+:-ms-input-placeholder {
+	color: #b2b2b2;
+}

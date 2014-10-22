@@ -1,3 +1,16 @@
+@font-face {
+	font-family: 'wisdom';
+	src: url('../fonts/wisdom_script_aj-webfont.eot');
+	src: url('../fonts/wisdom_script_aj-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/wisdom_script_aj-webfont.woff2') format('woff2'),
+	url('../fonts/wisdom_script_aj-webfont.woff') format('woff'),
+	url('../fonts/wisdom_script_aj-webfont.ttf') format('truetype'),
+	url('../fonts/wisdom_script_aj-webfont.svg#wisdom_scriptregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header_font_family;
 }
@@ -5,6 +18,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	color: $header_font_color;
 	@include font-size($h1_font_size);
+	font-weight: bold;
+	line-height: 1;
+}
+
+h2 {
+	@include font-size($h2_font_size);
 }
 
 main.main {
@@ -13,4 +32,15 @@ main.main {
 
 p {
 	@include rem('line-height', $paragraph_line_height);
+}
+
+.page-title {
+	width: 100%;
+	@include font-size(48px);
+	font-family: 'wisdom', script;
+	color: #fff;
+}
+
+.fancy {
+	font-family: 'wisdom', script;
 }

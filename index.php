@@ -1,49 +1,38 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/vendors/modernizr.custom.js"></script>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.min.css">
+<?php include('head.html'); ?>
 
-
-</head>
-
-<body>
+<body class="page-home">
 
 	<header class="banner masthead" role="banner">
-		<div class="container">
-			<div class="row">
-				<nav role="navigation">
-					<i class="fa fa-bars"></i>
-				</nav>
-			</div>
-		</div>
+		<nav role="navigation">
+			<i class="fa fa-bars toggle"></i>
+		</nav>
 	</header>
 
 
 	<main class="wrap container page" role="main">
+		<div class="row">
+			<div class="col-xs-12 center">
+				<img class="logo" src="assets/img/l_hipready.png" alt="HipReady" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-offset-2 col-md-4">
+				<a href="new-user.php" class="btn-block">
+					<h1>New User</h1>
+					<h2>Create Account</h2>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="btn-block">
+					<h1>Existing User</h1>
+					<h2>Login</h2>
+				</a>
 
+			</div>
+		</div>
 	</main>
 
-	<footer class="content-info" role="contentinfo">
-
-	</footer>
-
-	<script type="text/javascript">
-	</script>
-
-	<script type="text/javascript" src="assets/js/script.min.js"></script>
+	<?php include('footer.html');?>
 
 </body>
 </html>

@@ -1,0 +1,7 @@
+.modal {
+	margin-top: 80px;
+
+	.modal-body {
+		@include rem('padding', 80px 30px);
+	}
+}
