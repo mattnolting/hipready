@@ -6311,18 +6311,23 @@ body {
   background: url("../img/bg_body.jpg"); }
 
 /* line 10, ../sass/elements/_base.scss */
+body.page-home {
+  padding: 80px 0;
+  padding: 5rem 0; }
+
+/* line 14, ../sass/elements/_base.scss */
 hr {
   position: relative;
   margin: 40px 0;
   margin: 2.5rem 0; }
-  /* line 14, ../sass/elements/_base.scss */
+  /* line 18, ../sass/elements/_base.scss */
   hr:before {
     position: absolute;
     left: 50%;
     top: -20px;
     margin-left: -31px;
     content: url("../img/bg_hr.png"); }
-  /* line 22, ../sass/elements/_base.scss */
+  /* line 26, ../sass/elements/_base.scss */
   hr:after {
     content: '';
     width: 100%;
@@ -6330,7 +6335,7 @@ hr {
     display: block;
     background: #52380f; }
 
-/* line 31, ../sass/elements/_base.scss */
+/* line 35, ../sass/elements/_base.scss */
 .label {
   font-weight: bold;
   color: #fff;
@@ -6358,10 +6363,10 @@ hr {
   -o-transition: 0.2s;
   transition: 0.2s;
   background: #fff;
-  font-size: 38px;
-  font-size: 2.375rem;
-  line-height: 53.2px;
-  line-height: 3.325rem;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 44.8px;
+  line-height: 2.8rem;
   line-height: 1;
   color: #008aff;
   font-weight: bold; }
@@ -6385,25 +6390,25 @@ hr {
   -webkit-box-shadow: inset 0 0 12px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 0 0 12px 4px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0 0 12px 4px rgba(0, 0, 0, 0.4); }
-  /* line 35, ../sass/elements/_buttons.scss */
+  /* line 36, ../sass/elements/_buttons.scss */
   .btn-block h1, .btn-block h2, .btn-block h3, .btn-block h4 {
     margin-top: 0; }
-  /* line 37, ../sass/elements/_buttons.scss */
+  /* line 38, ../sass/elements/_buttons.scss */
   .btn-block:hover {
     text-decoration: none; }
 
-/* line 44, ../sass/elements/_buttons.scss */
+/* line 45, ../sass/elements/_buttons.scss */
 .btn-group .btn + .btn {
   margin-top: 14px;
   margin-top: 0.875rem; }
-/* line 48, ../sass/elements/_buttons.scss */
+/* line 49, ../sass/elements/_buttons.scss */
 .btn-group.full-width .btn {
   width: 100%; }
 
-/* line 54, ../sass/elements/_buttons.scss */
+/* line 55, ../sass/elements/_buttons.scss */
 .btn-group-block {
   display: block; }
-  /* line 57, ../sass/elements/_buttons.scss */
+  /* line 58, ../sass/elements/_buttons.scss */
   .btn-group-block .btn {
     display: block;
     float: none;
@@ -6411,7 +6416,7 @@ hr {
     padding: 16px 22px;
     padding: 1rem 1.375rem; }
 
-/* line 65, ../sass/elements/_buttons.scss */
+/* line 66, ../sass/elements/_buttons.scss */
 .btn-clear {
   padding: 12px 10px;
   padding: 0.75rem 0.625rem;
@@ -6420,12 +6425,12 @@ hr {
   background: gray;
   background: rgba(0, 0, 0, 0.4);
   border: 4px solid #fff; }
-  /* line 73, ../sass/elements/_buttons.scss */
+  /* line 74, ../sass/elements/_buttons.scss */
   .btn-clear:hover {
     color: #fff;
     background: rgba(0, 0, 0, 0.6); }
 
-/* line 79, ../sass/elements/_buttons.scss */
+/* line 80, ../sass/elements/_buttons.scss */
 .btn.btn-secondary {
   display: inline-block;
   padding: 8px 22px;
@@ -6519,10 +6524,10 @@ form {
   /* line 21, ../sass/elements/_forms.scss */
   form input {
     color: #008aff;
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 44.8px;
-    line-height: 2.8rem;
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 36.4px;
+    line-height: 2.275rem;
     width: 100%;
     padding: 12px 16px;
     padding: 0.75rem 1rem; }
@@ -6557,10 +6562,10 @@ form {
   /* line 57, ../sass/elements/_forms.scss */
   form label {
     color: #fff;
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 44.8px;
-    line-height: 2.8rem;
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 36.4px;
+    line-height: 2.275rem;
     font-weight: bold;
     line-height: 1; }
 
@@ -6711,23 +6716,23 @@ body {
   -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4); }
-  /* line 10, ../sass/components/_block-content.scss */
+  /* line 11, ../sass/components/_block-content.scss */
   .block-content h1 {
     margin-top: 0; }
-  /* line 11, ../sass/components/_block-content.scss */
+  /* line 12, ../sass/components/_block-content.scss */
   .block-content h2 {
     font-size: 32px;
     font-size: 2rem;
     line-height: 44.8px;
     line-height: 2.8rem;
     font-weight: bold; }
-  /* line 12, ../sass/components/_block-content.scss */
+  /* line 13, ../sass/components/_block-content.scss */
   .block-content h3 {
     font-weight: bold; }
-  /* line 14, ../sass/components/_block-content.scss */
+  /* line 15, ../sass/components/_block-content.scss */
   .block-content.block-fancy {
     position: relative; }
-    /* line 17, ../sass/components/_block-content.scss */
+    /* line 18, ../sass/components/_block-content.scss */
     .block-content.block-fancy:before {
       position: absolute;
       left: 50%;
@@ -6735,7 +6740,7 @@ body {
       margin-left: -31px;
       content: url("../img/bg_hr.png"); }
 
-/* line 27, ../sass/components/_block-content.scss */
+/* line 28, ../sass/components/_block-content.scss */
 .block-user {
   color: #008aff; }
 

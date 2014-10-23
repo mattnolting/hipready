@@ -20,7 +20,7 @@
 		</div>
 		<br />
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 				<div class="btn-group btn-group-clear full-width center">
 					<a href="5-add-billing.php" class="btn btn-clear">Add Billing Details</a>
 					<a href="4-add-user.php" class="btn btn-clear">Add Account User</a>
