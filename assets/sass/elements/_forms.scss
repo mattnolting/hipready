@@ -6,15 +6,11 @@ form {
 	}
 
 	.row + .row {
-		@include media-query (sm) {
-			margin-top: 14px;
-		}
+		@include media-query (sm) { margin-top: 14px; }
 	}
 
 	[class^="col-sm-"] {
-		@include media-query (sm_max) {
-			margin-top: 14px;
-		}
+		@include media-query (sm_max) { margin-top: 14px; }
 	}
 
 	button[type="submit"], .btn.submit, input {
@@ -25,6 +21,7 @@ form {
 	input {
 		color: $blue;
 		@include font-size(32px);
+//		font-weight: lighter;
 		width: 100%;
 		@include rem('padding', 12px 16px);
 	}

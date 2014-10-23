@@ -28,9 +28,30 @@
 	}
 
 	.page-title {
+		@include font-size(36px);
 		position: absolute;
-		top: 4px;
+		top: 8px;
 		text-align: center;
 		z-index: 1;
+	}
+
+	.sub-title {
+		position: absolute;
+		top: 64px;
+		z-index: 1;
+		width: 100%;
+		text-align: center;
+
+		span {
+			display: inline-block;
+			@include rem('padding', 8px 22px);
+			@include font-size(14px);
+			font-weight: bold;
+			color: #fff;
+			text-transform: uppercase;
+			background: $blue;
+			@include border-radius(8px);
+			@include box-shadow(0 3px 6px 3px rgba(0, 0, 0, 0.3));
+		}
 	}
 }

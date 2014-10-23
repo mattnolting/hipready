@@ -12,11 +12,24 @@ module.exports = function(grunt) {
         '!assets/js/script.min.js'
       ]
     },
+	jade: {
+		compile: {
+			options: {
+				data: function(dest, src) {
+					return {
+						from: 'jade',
+						to: 'html'
+					};
+				}
+			}
+		}
+	},
     sass: {
       dist: {
         options: {
-          style: 'compressed',
+          style: 'nested',
           compass: true,
+          lineNumbers: true,
           require: 'breakpoint',
           // Source maps are available, but require Sass 3.3.0 to be installed
           // https://github.com/gruntjs/grunt-contrib-sass#sourcemap
@@ -74,6 +87,10 @@ module.exports = function(grunt) {
         // tasks: ['sass', 'version']
         tasks: ['sass']
       },
+      //jade: {
+      //  files: '**/*.jade',
+      //  tasks: [ 'jade' ]
+      //},
       js: {
         files: [
           '<%= jshint.all %>'
@@ -109,6 +126,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-wp-version');
 
   // Register tasks

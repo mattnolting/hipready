@@ -3,5 +3,11 @@
 .alignright { float: right; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
+.nomargin { margin: 0; }
+.nomargin-top { margin-top: 0; }
+.nomargin-bottom { margin-bottom: 0; }
+.nomargin-left { margin-left: 0; }
+.nomargin-right { margin-right: 0; }
+
 .blue { color: $blue; }
 .green { color: $green; }

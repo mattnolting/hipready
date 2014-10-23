@@ -8,8 +8,9 @@
 		<div class="modal-content center">
 			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 			<div class="modal-body">
-				<h4 class="green">Welcome to HipReady</h4>
-				<h4 class="blue"><b>Please Check Your Email</b><br />A confirmation email is on the way.</h4>
+				<h2 class="green light nomargin-top">Welcome to HipReady</h2>
+				<hr />
+				<h2 class="blue light"><b>Please Check Your Email</b><br />A confirmation email is on the way.</h2>
 			</div>
 		</div>
 	</div>
@@ -56,7 +57,7 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<a href="my-account.php" class="btn submit">Create Account</a>
+							<a href="3-my-account.php" class="btn submit"><span>Create</span> Account</a>
 						</div>
 					</div>
 				</form>
@@ -68,7 +69,7 @@
 
 	<script type="text/javascript">
 		$(document).ready(function() {
-//			$('#myModal').modal('show');
+			setTimeout('$("#myModal").modal("show")', 400);
 		});
 	</script>
 

@@ -7,10 +7,6 @@ body {
 	background: url("../img/bg_body.jpg");
 }
 
-.container {
-
-}
-
 hr {
 	position: relative;
 	@include rem('margin', 40px 0);
@@ -30,4 +26,12 @@ hr {
 		display: block;
 		background: $brown;
 	}
+}
+
+.label {
+	font-weight: bold;
+	color: #fff;
+	@include font-size(32px);
+	font-weight: bold;
+	line-height: 1;
 }

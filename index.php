@@ -1,7 +1,7 @@
 <?php include('head.html'); ?>
 
 <body class="page-home">
-
+<img style="display: none" src="assets/img/overlay.png" />
 	<header class="banner masthead" role="banner">
 		<nav role="navigation">
 			<i class="fa fa-bars toggle"></i>
@@ -16,18 +16,33 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6 col-md-offset-2 col-md-4">
-				<a href="new-user.php" class="btn-block">
-					<h1>New User</h1>
+			<div class="col-sm-6 col-md-offset-1 col-md-5">
+				<a href="2-create-account.php" class="btn-block">
+					<h1>New<br /> User</h1>
 					<h2>Create Account</h2>
 				</a>
 			</div>
-			<div class="col-sm-6 col-md-4">
-				<a href="#" class="btn-block">
-					<h1>Existing User</h1>
+			<div class="col-sm-6 col-md-5">
+				<a href="" class="btn-block">
+					<h1>Existing<br /> User</h1>
 					<h2>Login</h2>
 				</a>
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="block-content">
+					<ul>
+						<li><a href="2-create-account.php">2 - Create Account</a></li>
+						<li><a href="3-my-account.php">3 - My Account</a></li>
+						<li><a href="4-add-user.php">4 - Add User</a></li>
+						<li><a href="5-add-billing.php">5 - Add Billing</a></li>
+						<li><a href="7-about-hipready.php">7 - About Hip Ready</a></li>
+						<li><a href="9-stable-home.php">9 - Stable Home</a></li>
+						<li><a href="10-current-sale.php">10 - Current Sale</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</main>
