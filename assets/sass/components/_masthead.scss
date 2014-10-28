@@ -27,12 +27,12 @@
 		z-index: 999;
 	}
 
-	.page-title {
+	.title {
+		width: 100%;
 		@include font-size(36px);
 		position: absolute;
-		top: 8px;
+		top: 14px;
 		text-align: center;
-		z-index: 1;
 	}
 
 	.sub-title {

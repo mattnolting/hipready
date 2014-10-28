@@ -18,15 +18,12 @@
 		<div class="row">
 			<div class="col-sm-6 col-md-offset-1 col-md-5">
 				<a href="2-create-account.php" class="btn-block">
-					<h1>New<br /> User</h1>
-					<h2>Create Account</h2>
+					<h1>Btn Block</h1>
+					<h2>H2</h2>
 				</a>
 			</div>
 			<div class="col-sm-6 col-md-5">
-				<a href="" class="btn-block">
-					<h1>Existing<br /> User</h1>
-					<h2>Login</h2>
-				</a>
+				<div class="btn-circle"><span>Button</span> Circle</div>
 			</div>
 		</div>
 
@@ -34,6 +31,7 @@
 			<div class="col-sm-12">
 				<div class="block-content">
 					<ul>
+						<li><a href="style-guide.php">Style Guide</a></li>
 						<li><a href="2-create-account.php">2 - Create Account</a></li>
 						<li><a href="3-my-account.php">3 - My Account</a></li>
 						<li><a href="4-add-user.php">4 - Add User</a></li>
@@ -41,9 +39,6 @@
 						<li><a href="7-about-hipready.php">7 - About Hip Ready</a></li>
 						<li><a href="9-stable-home.php">9 - Stable Home</a></li>
 						<li><a href="10-current-sale.php">10 - Current Sale</a></li>
-						<li><a href="11-card.php">11 - Card</a></li>
-						<br />
-						<li><a href="style-guide.php">Style Guide</a></li>
 					</ul>
 				</div>
 			</div>

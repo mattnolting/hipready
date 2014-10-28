@@ -10,6 +10,7 @@
 		<div class="row">
 			<div class="col-sm-offset-2 col-sm-8">
 				<div class="block-content block-user center">
+					<span class="edit"><i class="fa fa-pencil"></i></span>
 					<h1 class="fancy">Timbertown Stables</h1>
 					<hr />
 					<h2>Wayne Sweezey</h2>

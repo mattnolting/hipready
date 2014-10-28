@@ -57,7 +57,7 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<a href="3-my-account.php" class="btn submit"><span>Create</span> Account</a>
+							<a href="3-my-account.php" class="btn btn-circle submit"><span>Create</span> Account</a>
 						</div>
 					</div>
 				</form>

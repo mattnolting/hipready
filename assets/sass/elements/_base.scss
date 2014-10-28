@@ -39,3 +39,7 @@ hr {
 	font-weight: bold;
 	line-height: 1;
 }
+
+:focus {
+	@include box-shadow(none);
+}

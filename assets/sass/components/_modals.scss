@@ -4,10 +4,108 @@
 	.modal-body {
 		@include rem('padding', 80px 30px);
 	}
-
-
-
+}
 //	h1, h2, h3, h4, h5, h6 {
 //		margin-top: 0;
 //	}
+
+.modal.list {
+
+	.modal-header {
+		@extend %clearfix;
+		@include rem('padding', 14px 24px);
+		background: $green;
+		border: none;
+		color: #fff;
+		font-weight: bold;
+		@include border-radius(14px 14px 0 0);
+	}
+
+	.modal-title {
+		@include font-size(24px);
+		line-height: 1.4;
+		font-weight: bold;
+	}
+
+	.filters {
+		@extend %clearfix;
+		@include rem('padding', 8px 24px);
+		@include font-size(18px);
+		line-height: 1;
+		color: #fff;
+		background: #ababab;
+		font-weight: bold;
+
+		span {
+			width: 20%;
+			float: left;
+			font-style: oblique;
+		}
+
+		ul {
+			@extend %reset;
+			float: right;
+			list-style-type: none;
+
+			li {
+				@extend %reset;
+				position: relative;
+				@include rem('padding', 0 14px);
+				float: left;
+
+				&:hover { cursor: pointer; }
+
+				&:before {
+					content: '\007C';
+					position: absolute;
+					left: -1px;
+				}
+
+				&:first-child { &:before { display: none; } }
+			}
+		}
+
+		.active {
+			color: #312e2e;
+		}
+	}
+
+	.modal-body {
+		@include rem('padding', 20px 20px 40px 20px);
+
+		textarea {
+			width: 100%;
+			@include rem('margin-top', 20px);
+			@include rem('padding', 14px);
+			border: 1px solid #ddd;
+		}
+	}
+
+	.modal-content {
+		@include border-radius(16px);
+		border: none;
+	}
+
+	table {
+		width: 100%;
+		@include font-size(28px);
+
+		.selected { color: $blue; }
+
+		tr {
+			border-bottom: 1px solid $brown;
+
+			&:last-child {
+				border: none;
+			}
+
+			td {
+				@include rem('padding', 8px 4px);
+
+				&:first-child {
+					@include rem('padding-left', 10px);
+				}
+			}
+		}
+	}
 }

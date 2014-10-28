@@ -47,7 +47,7 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<div class="btn submit">Create User</div>
+							<div class="btn btn-circle submit">Create User</div>
 						</div>
 					</div>
 				</form>

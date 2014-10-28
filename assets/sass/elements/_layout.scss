@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	width: 900px;
+//	width: 900px;
 }
 
 .container {
@@ -17,3 +17,27 @@ body {
 	margin-top: 30px;
 }
 
+.title {
+	font-family: 'wisdom', script;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+}
+
+.edit {
+	position: absolute;
+	top: 6px;
+	right: 12px;
+	width: 31px;
+	height: 31px;
+	display: block;
+	background: #b2b2b2;
+	@include border-radius(50%);
+
+	i {
+		color: #fff;
+		@include font-size(18px);
+		@include rotateY(180deg);
+		line-height: 1.7;
+	}
+}
