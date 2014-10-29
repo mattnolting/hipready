@@ -2,6 +2,7 @@
 	@include box-shadow(0 0 10px 5px rgba(0, 0, 0, 0.4));
 	@include border-radius(16px);
 	background: #fff;
+	@include rem('margin-top', 20px);
 
 	header {
 		position: relative;
@@ -23,6 +24,7 @@
 			@include media-query (sm) {
 				width: 90%;
 				position: absolute;
+				left: 5%;
 				@include rem('top', -28px);
 			}
 
@@ -74,47 +76,25 @@
 			width: 100%;
 			bottom: -18px;
 		}
-	}
 
-	table {
-		width: 100%;
+		&.split-button {
+			@extend %clearfix;
 
-		thead {
-			tr {
-				border-bottom: 1px solid $brown;
+			button, .btn, .btn.btn-brown, .btn.btn-blue {
+				width: 49.5%;
+				float: left;
+				@include rem('padding', 16px 0);
+				@include border-radius(0 0 8px 0);
 
-				th {
-					@include font-size(24px);
-					color: $brown;
-
-					&:first-child {
-						width: 15%;
-						@include rem('padding-left', 16px);
-					}
-
-					&:nth-child(2) { width: 15%; }
-					&:nth-child(3) { width: 55%; }
-					&:nth-child(4) { width: 15%; text-align: center }
+				&:first-child {
+					margin-right: 1%;
+					@include border-radius(0 0 0 8px);
 				}
 			}
 		}
 
-		tr {
-			color: $green;
-
-			&.seen { color: $brown; }
-
-			td {
-				@include rem('padding', 6px 0);
-				@include font-size(24px);
-
-				&:first-child { @include rem('padding-left', 16px); }
-				&:nth-child(4) { text-align: center }
-			}
-		}
-
-		& + table {
-			@include rem('margin-top', 20px);
+		&.sticky {
+			@include rem('padding', 6px);
 		}
 	}
 

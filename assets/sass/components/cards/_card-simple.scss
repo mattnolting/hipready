@@ -1,0 +1,30 @@
+.card.card-simple {
+	@include rem('margin-top', 20px);
+
+	header {
+		background: #fff;
+
+		.title {
+			color: $green;
+
+			span { background: #fff; }
+		}
+	}
+
+	.content { padding-top: 0; }
+
+	&.card-brown {
+
+		header {
+			background: $brown;
+
+			.title {
+				color: #fff;
+
+				span { background: $brown; }
+			}
+		}
+
+		.content { @include rem('padding', 30px 20px); }
+	}
+}

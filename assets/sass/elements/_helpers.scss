@@ -3,15 +3,39 @@
 .alignright { float: right; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
-.nomargin { margin: 0; }
-.nomargin-top { margin-top: 0; }
-.nomargin-bottom { margin-bottom: 0; }
-.nomargin-left { margin-left: 0; }
-.nomargin-right { margin-right: 0; }
+.nomargin { margin: 0 !important; }
+.nomargin-top { margin-top: 0 !important; }
+.nomargin-bottom { margin-bottom: 0 !important; }
+.nomargin-left { margin-left: 0 !important; }
+.nomargin-right { margin-right: 0 !important; }
+
+.nopadding { padding: 0 !important; }
+.nopadding-top { padding-top: 0 !important; }
+.nopadding-bottom { padding-bottom: 0 !important; }
+.nopadding-left { padding-left: 0 !important; }
+.nopadding-right { padding-right: 0 !important; }
+
+.noborder { border: none; }
 
 .blue { color: $blue; }
+.brown { color: $brown; }
 .green { color: $green; }
 
 .caps { text-transform: uppercase; }
 .lighter { font-weight: lighter; }
 .regular { font-weight: normal; }
+.white { color: $white; }
+
+%vertical-align {
+	display: block;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.valign { @extend %vertical-align; }
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }

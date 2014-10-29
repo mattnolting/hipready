@@ -16,27 +16,6 @@
 		*zoom: 1;
 	}
 
-	%vertical-align {
-		display: block;
-		position: relative;
-		top: 50%;
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-
-	.valign {
-		@extend %vertical-align;
-	}
-
-	%center {
-		text-align: center;
-	}
-
-	.center {
-		@extend %center;
-	}
-
 	@mixin roboto($size, $color:"") {
 		font-family: 'Roboto', Arial, sans-serif;
 		color: blue;

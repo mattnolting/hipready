@@ -1,5 +1,6 @@
 .modal {
-	margin-top: 80px;
+//	margin-top: 80px;
+	z-index: 9999;
 
 	.modal-body {
 		@include rem('padding', 80px 30px);
@@ -85,27 +86,15 @@
 		@include border-radius(16px);
 		border: none;
 	}
+}
 
-	table {
-		width: 100%;
-		@include font-size(28px);
+.modal, .modal.modal-list {
 
-		.selected { color: $blue; }
+	.modal-header.full-width, .modal-body.full-width {
+		@include rem('padding', 0 0 40px 0);
+	}
 
-		tr {
-			border-bottom: 1px solid $brown;
+	.modal-body {
 
-			&:last-child {
-				border: none;
-			}
-
-			td {
-				@include rem('padding', 8px 4px);
-
-				&:first-child {
-					@include rem('padding-left', 10px);
-				}
-			}
-		}
 	}
 }

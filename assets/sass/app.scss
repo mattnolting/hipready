@@ -22,6 +22,7 @@ $bootstrap-sass-asset-helper: false;
 @import "elements/typography";
 @import "elements/forms";
 @import "elements/layout";
+@import "elements/tables";
 
 // Components
 //==================================================================
@@ -34,8 +35,10 @@ $bootstrap-sass-asset-helper: false;
 @import "components/primary-content";
 @import "components/modals";
 @import "components/block-content";
-@import "components/card";
+@import "components/cards/card";
+@import "components/cards/card-simple";
 @import "components/chosen";
+@import "components/off-canvas-nav";
 
 
 // Page Templates

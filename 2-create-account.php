@@ -72,6 +72,5 @@
 			setTimeout('$("#myModal").modal("show")', 400);
 		});
 	</script>
-
 </body>
 </html>
