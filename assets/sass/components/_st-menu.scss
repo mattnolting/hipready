@@ -1,0 +1,23 @@
+.st-menu {
+	@include rem('padding', 80px 14px);
+	overflow-y: scroll;
+	height: 100%;
+	position: fixed;
+	
+	ul {
+		@extend %reset;
+		list-style-type: none;
+		border-top: 1px solid #fff;
+		overflow-y: scroll;
+
+		li {
+			@include rem('padding', 12px 0);
+			border-bottom: 1px solid #fff;
+
+			a {
+				color: #fff;
+				@include font-size(28px);
+			}
+		}
+	}
+}

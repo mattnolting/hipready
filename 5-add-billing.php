@@ -48,7 +48,10 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<div class="btn btn-circle submit"><span>Confirm</span> Card</div>
+							<div class="btn btn-circle submit">
+								<div>
+									<span>Confirm</span> Card</div>
+								</div>
 						</div>
 					</div>
 				</form>

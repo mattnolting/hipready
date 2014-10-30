@@ -1,6 +1,6 @@
 <?php include('head.html'); ?>
 
-<?php $page_title = 'Login'; ?>
+<?php $page_title = 'Update Password'; ?>
 
 <body class="page-add-user">
 
@@ -12,11 +12,13 @@
 				<form action="">
 					<div class="row">
 						<div class="col-xs-12">
-							<input type="text" placeholder="Username" />
+							<label>New Password</label>
+							<input type="text" placeholder="Password" />
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12">
+							<label>Re-Type New Password</label>
 							<input type="text" placeholder="Password" />
 						</div>
 					</div>
@@ -24,7 +26,7 @@
 						<div class="col-sm-12">
 							<a href="3-my-account.php" class="btn btn-circle submit">
 								<div>
-									<span>Login</span>
+									<span>Update</span> Password
 								</div>
 							</a>
 						</div>

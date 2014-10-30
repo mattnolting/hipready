@@ -16,6 +16,16 @@
 					<h2>Wayne Sweezey</h2>
 					<div class="email">Waynesweezey@timbertownstable.com</div>
 					<div class="phone"><em>859.221.5422</em></div>
+					<div class="row btn-group-block">
+						<div class="col-xs-6">
+							<a href="9-stable-home.php" class="btn btn-blue center">My Stable</a>
+						</div>
+						<div class="col-xs-6">
+							<a href="11-card.php" class="btn btn-blue center">My Cards</a>
+						</div>
+					</div>
+
+					<div class="btn btn-blue btn-edit">Done Editing</div>
 				</div>
 			</div>
 		</div>
@@ -25,7 +35,7 @@
 				<div class="btn-group btn-group-clear full-width center">
 					<a href="5-add-billing.php" class="btn btn-clear">Add Billing Details</a>
 					<a href="4-add-user.php" class="btn btn-clear">Add Account User</a>
-					<a href="#" class="btn btn-clear">Change Password</a>
+					<a href="update-password.php" class="btn btn-clear">Change Password</a>
 				</div>
 			</div>
 		</div>

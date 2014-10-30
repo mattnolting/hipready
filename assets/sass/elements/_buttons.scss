@@ -1,10 +1,9 @@
 .btn {
 	position: relative;
-	@include font-size(28px);
 	@include border-radius(0);
 	@include transition(.2s);
 	background: #fff;
-	@include font-size(32px);
+	@include font-size(28px);
 	line-height: 1;
 	color: $blue;
 	font-weight: bold;
@@ -54,12 +53,24 @@
 		height: 140px;
 		display: inline-block;
 		@include rem('margin-top', 32px);
+		padding: 0;
+//		@include rem('padding-top', 40px);
 		background: #fff;
 		@include border-radius(50%);
-		border: 10px solid $brown;
+		border: 10px solid $brown !important;
+		@include font-size(24px);
+		line-height: 1;
+		font-weight: normal;
+		text-align: center;
 
 		&:hover { background: rgba(255,255,255,.8); }
-		span { text-transform: uppercase; }
+		div { @extend %vertical-align; }
+
+		span {
+			font-weight: bold;
+			display: block;
+			text-transform: uppercase;
+		}
 	}
 }
 
@@ -67,6 +78,7 @@
 	@include rem('margin-bottom', 20px);
 	@include rem('padding', 40px);
 	background: #fff;
+	@include transition(.2s);
 
 	h1, h2, h3, h4 { margin-top: 0; }
 
@@ -120,5 +132,20 @@
 
 button:focus, button:active, .btn:focus, .btn:active {
 	outline: 0 !important;
+	@include box-shadow(none);
+}
+
+button.close {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 99;
+}
+
+.btn.btn-edit {
+	font-weight: normal;
+	@include rem('padding-left', 30px);
+	@include rem('padding-right', 30px);
+	margin-top: 20px;
 	@include box-shadow(none);
 }

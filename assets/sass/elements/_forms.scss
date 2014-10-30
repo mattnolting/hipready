@@ -1,15 +1,20 @@
+.container {
+
+	form {
+		.row + .row {
+			margin-top: 0;
+
+			@include media-query (sm) { margin-top: 14px; }
+		}
+	}
+}
+
 form {
 	color: $blue;
 
-	.row {
+	.row {  }
 
-	}
-
-	.row + .row {
-		@include media-query (sm) { margin-top: 14px; }
-	}
-
-	[class^="col-sm-"] {
+	[class^="col-sm-"], [class^="col-xs-"] {
 		@include media-query (sm_max) { margin-top: 14px; }
 	}
 
@@ -35,11 +40,13 @@ form {
 		}
 
 		label {
+			display: block;
 			font-weight: bold;
 		}
 	}
 
 	label {
+		@include rem('margin', 20px 0 14px);
 		color: #fff;
 		@include font-size(26px);
 		font-weight: bold;

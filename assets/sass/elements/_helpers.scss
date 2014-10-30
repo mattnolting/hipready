@@ -17,6 +17,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .noborder { border: none; }
 
+.border-bottom { @include rem('padding-bottom', 20px); border-bottom: 1px solid $brown; }
+.border-bottom.border-bottom-blue { border-bottom: 1px solid $blue; }
+
 .blue { color: $blue; }
 .brown { color: $brown; }
 .green { color: $green; }
@@ -36,6 +39,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .valign { @extend %vertical-align; }
-.center { text-align: center; }
-.left { text-align: left; }
-.right { text-align: right; }
+.center { text-align: center !important; }
+.left { text-align: left !important; }
+.right { text-align: right !important; }

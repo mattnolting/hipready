@@ -2,7 +2,7 @@
 
 <?php $page_title = 'Create New Card'; ?>
 
-<div class="modal fade list" id="add-horse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade list add" id="add-horse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -20,27 +20,27 @@
 				</ul>
 			</div>
 			<div class="modal-body">
-				<table>
+				<table class="selectable">
 					<tr class="selected">
-						<td><i class="fa fa-check-circle"></i></td>
+						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 						<td>400</td>
 						<td>'14</td>
 						<td>Crocdundeal (f)</td>
 					</tr>
 					<tr>
-						<td><i class="fa fa-minus-circle"></i></i></td>
+						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 						<td>405</td>
 						<td>'14</td>
 						<td>Crocdundeal (f)</td>
 					</tr>
 					<tr class="selected">
-						<td><i class="fa fa-check-circle"></i></td>
+						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 						<td>410</td>
 						<td>'14</td>
 						<td>Crocdundeal (f)</td>
 					</tr>
 					<tr>
-						<td><i class="fa fa-minus-circle"></i></td>
+						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 						<td>415</td>
 						<td>'14</td>
 						<td>Crocdundeal (f)</td>
@@ -89,7 +89,7 @@
 						<button class="btn btn-blue" data-toggle="modal" data-target="#add-horse">+ Add Horse</button>
 					</header>
 					<div class="content">
-						<table>
+						<table class="selectable">
 							<thead>
 								<tr>
 									<th class="date">9/20</th>
@@ -103,18 +103,18 @@
 									<td>200</td>
 									<td>14</td>
 									<td>Good Child(f)</td>
-									<td><i class="fa fa-check-circle"></i></td>
+									<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 								</tr>
 								<tr class="seen">
 									<td>205</td>
 									<td>14</td>
 									<td>Good Child(f)</td>
-									<td><i class="fa fa-check-circle"></i></td>
+									<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 								</tr>
 							</tbody>
 						</table>
 
-						<table>
+						<table class="selectable">
 							<thead>
 								<tr>
 									<th class="date">9/20</th>
@@ -128,13 +128,13 @@
 									<td>400</td>
 									<td>14</td>
 									<td>Crocdundeal (f)</td>
-									<td>no</td>
+									<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 								</tr>
 								<tr>
 									<td>405</td>
 									<td>14</td>
 									<td>Minor Miner (f)</td>
-									<td>no</td>
+									<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
 								</tr>
 							</tbody>
 						</table>

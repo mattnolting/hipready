@@ -15,15 +15,25 @@
 		@include rem('padding', 0 18px);
 		float: right;
 		color: #fff;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 
 	.logo {
+		@include media-query (xs_max) {
+			width: 62px;
+			height: 77px;
+		}
+
 		position: absolute;
 		top: 12px;
 		left: 0;
 		width: 125px;
 		height: 145px;
-		background: url("../img/l_nav.png");
+		background: url("../img/l_nav.png") no-repeat;
+		background-size: 100% auto;
 		z-index: 999;
 	}
 

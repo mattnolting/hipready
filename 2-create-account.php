@@ -6,7 +6,7 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content center">
-			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
 			<div class="modal-body">
 				<h2 class="green light nomargin-top">Welcome to HipReady</h2>
 				<hr />
@@ -57,7 +57,11 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<a href="3-my-account.php" class="btn btn-circle submit"><span>Create</span> Account</a>
+							<a href="3-my-account.php" class="btn btn-circle submit">
+								<div>
+									<span>Create</span> Account
+								</div>
+							</a>
 						</div>
 					</div>
 				</form>

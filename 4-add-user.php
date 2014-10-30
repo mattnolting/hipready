@@ -29,16 +29,12 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-sm-6">
 							<div class="checkbox">
 								<label>
 									<input type="checkbox"> Make Administrator
 								</label>
 							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
 							<input type="text" placeholder="Password*" />
 						</div>
 						<div class="col-sm-6">
@@ -47,7 +43,10 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<div class="btn btn-circle submit">Create User</div>
+							<div class="btn btn-circle submit">
+								<div>
+									<span>Create</span> User
+								</div>
 						</div>
 					</div>
 				</form>

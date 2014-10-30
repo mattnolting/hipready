@@ -153,7 +153,28 @@ table {
 	width: 100%;
 	@include font-size(28px);
 
-	.selected { color: $blue; }
+	.fa-check-circle { display: none; }
+
+	&.selectable {
+		tbody {
+			tr {
+				color: #808080;
+				@include transition(.2s);
+
+				&:hover {
+					cursor: pointer;
+					background: #ddd;
+				}
+
+				&.selected {
+					color: $blue;
+
+					.fa-check-circle { display: block; }
+					.fa-minus-circle { display: none; }
+				}
+			}
+		}
+	}
 
 	tbody {
 		tr:last-child { border: none; }

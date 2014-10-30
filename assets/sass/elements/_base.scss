@@ -1,15 +1,16 @@
-html {
-	font-size: 100%;
-}
+html { font-size: 100%; height: auto; }
 
 body {
 //	@include rem('padding', 140px 0);
+	height: auto;
 	background: url("../img/bg_body.jpg");
 }
 
 body.page-home {
 //	@include rem('padding', 80px 0);
 }
+
+img { max-width: 100%; }
 
 hr {
 	position: relative;
@@ -32,9 +33,7 @@ hr {
 	}
 }
 
-small {
-	@include font-size(14px);
-}
+small { @include font-size(14px); }
 
 .label {
 	font-weight: bold;
@@ -44,8 +43,27 @@ small {
 	line-height: 1;
 }
 
-:focus {
-	@include box-shadow(none);
+:focus { @include box-shadow(none); }
+
+.page {
+	@include rem('padding-top', 90px);
+	@include rem('padding-bottom', 80px);
+
+	@include media-query (xs) {
+		@include rem('padding-top', 180px);
+	}
 }
 
-.page { @include rem('padding', 120px 0); }
+.page-home {
+
+	.page {
+		@include rem('padding-bottom', 40px);
+
+		@include media-query (xs) { @include rem('padding-top', 90px); }
+	}
+}
+
+.email {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

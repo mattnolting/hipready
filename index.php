@@ -14,13 +14,13 @@
 		<div class="row">
 			<div class="col-sm-6 col-md-offset-1 col-md-5">
 				<a href="2-create-account.php" class="btn-block">
-					<h1>New<br /> User</h1>
+					<h1 class="border-bottom">New<br /> User</h1>
 					<h2>Create Account</h2>
 				</a>
 			</div>
 			<div class="col-sm-6 col-md-5">
 				<a href="login.php" class="btn-block">
-					<h1>Existing<br /> User</h1>
+					<h1 class="border-bottom">Existing<br /> User</h1>
 					<h2>Login</h2>
 				</a>
 			</div>
@@ -31,6 +31,7 @@
 				<div class="block-content">
 					<ul>
 						<li><a href="login.php">Login</a></li>
+						<li><a href="update-password.php">Update Password</a></li>
 						<li><a href="2-create-account.php">2 - Create Account</a></li>
 						<li><a href="3-my-account.php">3 - My Account</a></li>
 						<li><a href="4-add-user.php">4 - Add User</a></li>
