@@ -72,7 +72,7 @@
 
 	<main class="wrap container page" role="main">
 		<div class="row">
-			<div class="col-sm-offset-2 col-sm-8">
+			<div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">
 				<div class="card">
 					<header class="header">
 						<span class="edit"><i class="fa fa-pencil"></i></span>

@@ -101,7 +101,7 @@
 									<thead>
 										<tr>
 											<th class="date caps"><strong>My Lookers</strong>&nbsp;/&nbsp;<span class="brown">All Lookers</span></th>
-											<th class="year caps center">Looks</th>
+											<th class="year caps center brown">Looks</th>
 										</tr>
 									</thead>
 									<tbody>

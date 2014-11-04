@@ -1,14 +1,11 @@
 html { font-size: 100%; height: auto; }
 
-body {
-//	@include rem('padding', 140px 0);
+body {//	@include rem('padding', 140px 0);
 	height: auto;
 	background: url("../img/bg_body.jpg");
 }
 
-body.page-home {
-//	@include rem('padding', 80px 0);
-}
+body.page-home {  }
 
 img { max-width: 100%; }
 
@@ -48,9 +45,16 @@ small { @include font-size(14px); }
 .page {
 	@include rem('padding-top', 90px);
 	@include rem('padding-bottom', 80px);
+	@include rem('padding-left', 45px);
+	@include rem('padding-right', 45px);
 
-	@include media-query (xs) {
-		@include rem('padding-top', 180px);
+	&.more-pad {
+		@include rem('padding-top', 140px);
+	}
+
+	@include media-query (md) {
+		padding-left: 9px;
+		padding-right: 9px;
 	}
 }
 
@@ -59,11 +63,28 @@ small { @include font-size(14px); }
 	.page {
 		@include rem('padding-bottom', 40px);
 
-		@include media-query (xs) { @include rem('padding-top', 90px); }
+		@include media-query (xs) {
+			@include rem('padding-top', 90px);
+		}
 	}
 }
 
 .email {
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.br {
+	position: relative;
+	width: 100%;
+	height: 1px;
+	@include rem('margin', 12px 0 18px 0);
+	background: $brown;
+	
+	&.br-arrow:after {
+		content: url("../img/i_home-button.png");
+		position: absolute;
+		right: -8px;
+		top: -12px;
+	}
 }

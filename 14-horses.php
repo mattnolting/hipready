@@ -72,7 +72,7 @@
 							<footer class="center">
 								<div class="row card-action">
 									<div class="col-xs-12">
-										<div class="btn btn-blue submit caps">+ Add a Horse</div>
+										<div class="btn btn-blue submit caps btn-drop">+ Add a Horse</div>
 									</div>
 								</div>
 							</footer>

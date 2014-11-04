@@ -10,7 +10,8 @@
 			<div class="modal-body">
 				<h2 class="green light nomargin-top">Welcome to HipReady</h2>
 				<hr />
-				<h2 class="blue light"><b>Please Check Your Email</b><br />A confirmation email is on the way.</h2>
+				<h2 class="blue light smaller"><strong>Please Check Your Email</strong></h2>
+				<h3 class="blue light smaller">A confirmation email is on the way.</h3>
 			</div>
 		</div>
 	</div>
@@ -20,52 +21,50 @@
 
 	<?php include('page-nav.php'); ?>
 
-	<main class="wrap container page" role="main">
+	<main class="wrap container page more-pad" role="main">
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<form action="">
-					<div class="row">
-						<div class="col-sm-12">
-							<input type="text" placeholder="Consignor / Consignment*" />
-						</div>
+			<form class="col-sm-8 col-sm-offset-2">
+				<div class="row">
+					<div class="col-sm-12">
+						<input type="text" placeholder="Consignor / Consignment*" />
 					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<input type="text" placeholder="First Name*" />
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Last Name*" />
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<input type="text" placeholder="First Name*" />
 					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<input type="text" placeholder="Phone Number*" />
-						</div>
+					<div class="col-sm-6">
+						<input type="text" placeholder="Last Name*" />
 					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<input type="text" placeholder="Email*" />
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<input type="text" placeholder="Phone Number*" />
 					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<input type="text" placeholder="Password*" />
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Confirm Password*" />
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<input type="text" placeholder="Email*" />
 					</div>
-					<div class="row center">
-						<div class="col-sm-12">
-							<a href="3-my-account.php" class="btn btn-circle submit">
-								<div>
-									<span>Create</span> Account
-								</div>
-							</a>
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<input type="text" placeholder="Password*" />
 					</div>
-				</form>
-			</div>
+					<div class="col-sm-6">
+						<input type="text" placeholder="Confirm Password*" />
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col-sm-12">
+						<a href="3-my-account.php" class="btn btn-circle submit">
+							<div>
+								<span>Create</span> Account
+							</div>
+						</a>
+					</div>
+				</div>
+			</form>
 		</div>
 	</main>
 

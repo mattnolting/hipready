@@ -1,7 +1,9 @@
 <div id="st-container" class="st-container">
 	<nav class="st-menu st-effect-1" id="menu-1">
-		<i id="close" class="fa fa-bars toggle" data-effect="st-effect-1"></i>
-		<a href="index.php"><i class="fa fa-home"></i></a>
+		<div class="nav-control">
+			<i id="close" class="fa fa-bars toggle" data-effect="st-effect-1"></i>
+			<a class="pull-right" href="index.php"><i class="fa fa-home"></i></a>
+		</div>
 		<ul>
 			<li><a href="3-my-account.php">My Account</a></li>
 			<li><a href="9-stable-home.php">My Stable</a></li>

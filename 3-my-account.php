@@ -6,7 +6,7 @@
 
 	<?php include('page-nav.php'); ?>
 
-	<main class="wrap container page" role="main">
+	<main class="wrap container page more-pad" role="main">
 		<div class="row">
 			<div class="col-sm-offset-2 col-sm-8">
 				<div class="block-content block-user center">
@@ -21,7 +21,7 @@
 							<a href="9-stable-home.php" class="btn btn-blue center">My Stable</a>
 						</div>
 						<div class="col-xs-6">
-							<a href="11-card.php" class="btn btn-blue center">My Cards</a>
+							<a href="12-cards.php" class="btn btn-blue center">My Cards</a>
 						</div>
 					</div>
 
@@ -35,7 +35,6 @@
 				<div class="btn-group btn-group-clear full-width center">
 					<a href="5-add-billing.php" class="btn btn-clear">Add Billing Details</a>
 					<a href="4-add-user.php" class="btn btn-clear">Add Account User</a>
-					<a href="update-password.php" class="btn btn-clear">Change Password</a>
 				</div>
 			</div>
 		</div>

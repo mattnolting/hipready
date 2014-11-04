@@ -20,13 +20,12 @@
 
 	&.btn-blue, &.btn-brown, &.btn-white {
 		display: inline-block;
-		@include rem('padding', 8px 22px);
+		@include rem('padding', 14px 44px);
 		@include font-size(14px);
 		font-weight: bold;
 		color: #fff;
 		background: $blue;
 		@include border-radius(8px);
-		@include box-shadow(0 3px 6px 3px rgba(0, 0, 0, 0.3));
 		@include opacity(1);
 	}
 
@@ -54,7 +53,6 @@
 		display: inline-block;
 		@include rem('margin-top', 32px);
 		padding: 0;
-//		@include rem('padding-top', 40px);
 		background: #fff;
 		@include border-radius(50%);
 		border: 10px solid $brown !important;
@@ -76,7 +74,7 @@
 
 .btn-block {
 	@include rem('margin-bottom', 20px);
-	@include rem('padding', 40px);
+	@include rem('padding', 30px);
 	background: #fff;
 	@include transition(.2s);
 
@@ -148,4 +146,12 @@ button.close {
 	@include rem('padding-right', 30px);
 	margin-top: 20px;
 	@include box-shadow(none);
+}
+
+.btn.btn-drop {
+	@include box-shadow(0 4px 4px 4px rgba(0,0,0,.2));
+}
+
+.btn-home {
+
 }

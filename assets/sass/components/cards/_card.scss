@@ -2,7 +2,9 @@
 	@include box-shadow(0 0 10px 5px rgba(0, 0, 0, 0.4));
 	@include border-radius(16px);
 	background: #fff;
-	@include rem('margin-top', 20px);
+	@include rem('margin-top', 50px);
+
+	&:hover { text-decoration: none; }
 
 	header {
 		position: relative;
@@ -31,6 +33,11 @@
 			span {
 				background: $brown;
 				@include border-radius(12px);
+				overflow: hidden;
+				text-overflow: ellipsis;
+				word-break: break-all;
+				white-space: nowrap;
+				display: block;
 
 				@include media-query (sm) {
 					@include font-size(32px);
@@ -67,6 +74,8 @@
 		@include box-shadow(none);
 	}
 
+	.header + .content { @include border-radius(0 0 12px 12px); }
+
 	footer {
 		position: relative;
 		@include rem('padding', 30px 20px 50px 20px);
@@ -74,7 +83,7 @@
 		.card-action {
 			position: absolute;
 			width: 100%;
-			bottom: -18px;
+			bottom: -24px;
 		}
 
 		&.split-button {

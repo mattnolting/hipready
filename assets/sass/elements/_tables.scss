@@ -93,24 +93,11 @@ table.split {
 	}
 }
 
-//table.list {
-//
-//	tr {
-//		border: none;
-//
-//		td {
-//			@include rem('padding', 6px);
-//			@include font-size(32px);
-//
-//			&:first-child {
-//				@include font-size(20px);
-//				color: $brown;
-//				text-align: right;
-//				font-style: oblique;
-//			}
-//		}
-//	}
-//}
+table.noborder {
+	tr {
+		border: none;
+	}
+}
 
 table.filter {
 
@@ -194,7 +181,7 @@ table {
 	}
 }
 
-tr.active, .toggle {
+tr.active, tr.toggle {
 	background: #ededed;
 }
 
@@ -218,3 +205,9 @@ table {
 	}
 }
 
+table.compact, .layout-grid table {
+	tr, td {
+		@include rem('padding', 2px 4px);
+		@include font-size(18px);
+	}
+}
