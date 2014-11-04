@@ -1,0 +1,15 @@
+.nav-control {
+	@include rem('padding-bottom', 12px);
+
+	i {
+		color: #fff;
+		@include font-size(60px);
+		line-height: 1;
+
+		&:hover {
+			cursor: pointer;
+			@include opacity(.8);
+			@include transition(.2s);
+		}
+	}
+}
