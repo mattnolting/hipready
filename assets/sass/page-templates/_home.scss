@@ -6,8 +6,22 @@
 		i { background: none; }
 	}
 
+	.btn-home {
+		display: inline-block;
+
+		@include media-query (xs) {
+			width: 340px;
+			@include rem('padding', 60px 30px);
+			@include border-radius(50%);
+		}
+
+		h1, h2 {
+
+		}
+	}
+
 	.logo {
-//		@include rem('margin-bottom', 40px);
+		@include rem('margin-bottom', 40px);
 	}
 }
 

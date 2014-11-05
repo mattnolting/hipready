@@ -14,7 +14,7 @@
 						<h4 class="modal-title" id="myModalLabel">Looker: Evan Bee</h4>
 					</div>
 					<div class="col-xs-6">
-						<button type="button" class="close btn btn-white" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
+						<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
 					</div>
 				</div>
 			</div>

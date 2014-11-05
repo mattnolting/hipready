@@ -14,8 +14,8 @@
 						<h4 class="modal-title" id="myModalLabel">Lookers</h4>
 					</div>
 					<div class="col-xs-9 col-md-7">
-						<button type="button" class="close btn btn-white pull-left">Add Looker</button>
-						<button type="button" class="close btn btn-white" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
+						<button type="button" class="btn btn-white btn-small pull-left">Add Looker</button>
+						<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
 					</div>
 				</div>
 			</div>
@@ -75,8 +75,8 @@
 						<h4 class="modal-title" id="myModalLabel">Vet Work</h4>
 					</div>
 					<div class="col-xs-9 col-md-7">
-						<button type="button" id="add-vet-work" class="close btn btn-white pull-left">Add Vet Work</button>
-						<button type="button" class="close btn btn-white" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
+						<button type="button" id="add-vet-work" class="btn btn-white btn-small pull-left">Add Vet Work</button>
+						<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
 					</div>
 				</div>
 			</div>

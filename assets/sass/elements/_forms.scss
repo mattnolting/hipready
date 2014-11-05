@@ -1,13 +1,4 @@
-.container {
-
-	form {
-		.row + .row {
-			margin-top: 0;
-
-			@include media-query (sm) { margin-top: 14px; }
-		}
-	}
-}
+.container { form { .row + .row { margin-top: 14px; } } }
 
 form {
 	@include font-size(22px);
@@ -15,7 +6,7 @@ form {
 
 	.row {  }
 
-	[class^="col-sm-"], [class^="col-xs-"] { @include media-query (xs_max) { margin-top: 14px; } }
+	[class^="col-sm-"], [class^="col-xs-"] { @include media-query (sm_max) { margin-top: 14px; } }
 
 	button[type="submit"], .btn.submit, input { border: none; }
 

@@ -12,16 +12,16 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6 col-sm-6 col-md-offset-1 col-md-5">
+			<div class="col-xs-12 center">
 				<a href="2-create-account.php" class="btn-block btn-home">
-					<h1>New<br /> User</h1>
+					<h1>New User</h1>
 					<div class="br br-arrow"></div>
 					<h2 class="light">Create Account</h2>
 				</a>
 			</div>
-			<div class="col-sm-6 col-md-5">
+			<div class="col-xs-12 center">
 				<a href="login.php" class="btn-block btn-home">
-					<h1>Existing<br /> User</h1>
+					<h1>Existing User</h1>
 					<div class="br br-arrow"></div>
 					<h2 class="light">Login</h2>
 				</a>
@@ -38,7 +38,7 @@
 						<li><a href="3-my-account.php">3 - My Account</a></li>
 						<li><a href="4-add-user.php">4 - Add User</a></li>
 						<li><a href="5-add-billing.php">5 - Add Billing</a></li>
-						<li><a href="7-about-hipready.php">7 - About Hip Ready</a></li>
+						<li><a href="7-about-hipready.php">7 - About <span class="fancy">HipReady</span></a></li>
 						<li><a href="9-stable-home.php">9 - Stable Home</a></li>
 						<li><a href="10-current-sale.php">10 - Current Sale</a></li>
 						<li><a href="11-card.php"><s>11 - Card</s></a></li>

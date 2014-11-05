@@ -8,7 +8,7 @@
 		<div class="modal-content center">
 			<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
 			<div class="modal-body">
-				<h2 class="green light nomargin-top">Welcome to HipReady</h2>
+				<h2 class="green light nomargin-top">Welcome to <span class="fancy">HipReady</span></h2>
 				<hr />
 				<h2 class="blue light smaller"><strong>Please Check Your Email</strong></h2>
 				<h3 class="blue light smaller">A confirmation email is on the way.</h3>

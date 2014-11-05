@@ -8,7 +8,7 @@
 
 	<main class="wrap container page more-pad" role="main">
 		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
+			<div class="col-sm-8 col-sm-offset-2">
 				<form action="">
 					<div class="row">
 						<div class="col-sm-12">
@@ -48,10 +48,11 @@
 					</div>
 					<div class="row center">
 						<div class="col-sm-12">
-							<div class="btn btn-circle submit">
+							<a href="3-my-account.php" class="btn btn-circle submit">
 								<div>
-									<span>Confirm</span> Card</div>
+									<span>Confirm</span> Information
 								</div>
+							</a>
 						</div>
 					</div>
 				</form>

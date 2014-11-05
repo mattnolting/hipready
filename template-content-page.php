@@ -10,10 +10,10 @@
 		<div class="row">
 			<div class="col-sm-offset-2 col-sm-8">
 				<div class="block-content block-user center">
-					<h1 class="fancy">Timbertown Stables</h1>
+					<h1>Sweezey Morrell Sales</h1>
 					<hr />
 					<h2>Wayne Sweezey</h2>
-					<div class="email">Waynesweezey@timbertownstable.com</div>
+					<div class="email">m@m.com</div>
 					<div class="phone"><em>859.221.5422</em></div>
 				</div>
 			</div>

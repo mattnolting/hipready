@@ -1,12 +1,25 @@
 body { background: url('../img/bg_body.jpg'); }
 
-.row + .row { margin-top: 30px; }
+.row + .row {
+	margin-top: 30px;
+
+	[class^="col-xs-"], [class^="col-sm-"] {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
 
 .title {
-	font-family: 'wisdom', script;
+	@include font-size(24px);
 	color: #fff;
 	text-align: center;
 	z-index: 1;
+	font-weight: bold;
+
+	@include media-query (xs) {
+		@include font-size(36px);
+	}
 }
 
 .edit {
@@ -39,10 +52,12 @@ body { background: url('../img/bg_body.jpg'); }
 .layout-grid {
 
 	.card {
+		width: 100%;
+		float: left;
 
 		@include media-query (sm) {
 			width: 47%;
-			margin: 50px 1.5% 0;
+			margin: 50px 1.5% 20px;
 			float: left;
 		}
 
@@ -52,11 +67,30 @@ body { background: url('../img/bg_body.jpg'); }
 
 				span {
 					width: 100%;
+					@include font-size(22px);
 					overflow: hidden;
 					text-overflow: ellipsis;
 					word-break: break-all;
 				}
 			}
+		}
+
+		footer {
+			@include rem('padding', 6px 0);
+//			@include rem('margin-bottom', 40px);
+
+			.card-action {
+				bottom: -20px;
+			}
+
+			.btn-white:hover {
+				background: #fff;
+				cursor: default;
+			}
+		}
+
+		.content {
+			height: 320px;
 		}
 	}
 }

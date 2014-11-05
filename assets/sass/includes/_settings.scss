@@ -2,6 +2,7 @@
 //==================================================================*/
 	$green:         #408821;
 	$blue:          #008aff;
+	$blue_dark:     #262626;
 	$brown:         #52380f;
 	$brown_light:   #9e8327;
 	$white:         #fff;
@@ -70,7 +71,7 @@
 		$header_text_rendering: optimizeLegibility;
 		$header_font_color: $green;
 
-		$h1_font_size: 46px;
+		$h1_font_size: 39px;
 		$h2_font_size: 35px;
 		$h3_font_size: 32px;
 		$h4_font_size: 23px;
@@ -81,8 +82,8 @@
 		// Paragraphs
 		//--------------------------------------------------------------*/
 		$paragraph_font_weight: normal;
-		$paragraph_font_size: $base_font_size;
-		$paragraph_line_height: 20px;
+		$paragraph_font_size: 20px;
+		$paragraph_line_height: 26px;
 		$paragraph_margin_bottom: 20px;
 		$paragraph_text_rendering: optimizeLegibility;
 

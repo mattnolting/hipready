@@ -6,7 +6,7 @@ body {//	@include rem('padding', 140px 0);
 }
 
 body.page-home {  }
-
+.full-width { width: 100%; }
 img { max-width: 100%; }
 
 hr {
@@ -48,8 +48,11 @@ small { @include font-size(14px); }
 	@include rem('padding-left', 45px);
 	@include rem('padding-right', 45px);
 
+	@include media-query (xs) { @include rem('padding-top', 160px); }
+	@include media-query (sm) { @include rem('padding-top', 120px);}
+
 	&.more-pad {
-		@include rem('padding-top', 140px);
+//		@include rem('padding-top', 140px);
 	}
 
 	@include media-query (md) {
@@ -58,13 +61,14 @@ small { @include font-size(14px); }
 	}
 }
 
-.page-home {
+.page-home, .page-login {
 
 	.page {
 		@include rem('padding-bottom', 40px);
+		@include rem('padding-top', 100px);
 
 		@include media-query (xs) {
-			@include rem('padding-top', 90px);
+			@include rem('padding-top', 70px);
 		}
 	}
 }

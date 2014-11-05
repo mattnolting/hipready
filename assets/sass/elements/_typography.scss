@@ -8,9 +8,7 @@
 	url('../fonts/wisdom_script_aj-webfont.svg#wisdom_scriptregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
-
 }
-
 
 // Headers
 //==================================================================*/
@@ -22,15 +20,15 @@ h2 { @include font-size($h2_font_size); line-height: 1; }
 
 // Paragraph & Inline
 //==================================================================*/
-p { @include rem('line-height', $paragraph_line_height); }
+p { @include font-size($paragraph_font_size); @include rem('line-height', $paragraph_line_height); @include rem('margin-bottom', 22px); }
 
-.fancy { font-family: 'wisdom', script; }
+.fancy { font-family: 'wisdom', script; font-weight: normal; }
 .light { font-weight: lighter; }
 
 .page-title {
 	width: 100%;
 	@include font-size(48px);
-	font-family: 'wisdom', script;
+//	font-family: 'wisdom', script;
 	color: #fff;
 }
 

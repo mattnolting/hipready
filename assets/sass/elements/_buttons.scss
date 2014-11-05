@@ -13,12 +13,16 @@
 		position: absolute;
 		right: 14px;
 	}
+
+	.btn-small {
+		@include rem('padding', 6px 32px);
+	}
 	
 	&:hover { background: rgba(255,255,255,.9); }
 	&.btn-primary { }
 	&.round { @include border-radius(12px 12px 12px 12px); }
 
-	&.btn-blue, &.btn-brown, &.btn-white {
+	&.btn-blue, &.btn-brown, &.btn-white, &.btn-dark-blue, &.btn-green {
 		display: inline-block;
 		@include rem('padding', 14px 44px);
 		@include font-size(14px);
@@ -27,6 +31,10 @@
 		background: $blue;
 		@include border-radius(8px);
 		@include opacity(1);
+
+		&.btn-small {
+			@include rem('padding', 6px 32px);
+		}
 	}
 
 	&.btn-blue { &:hover { background: lighten($blue, 10); } }
@@ -39,6 +47,16 @@
 		&.active { background: $blue; }
 	}
 
+	&.btn-dark-blue {
+		background: $blue_dark;
+		@include box-shadow(none);
+		color: #fff;
+
+		&:hover { background: lighten($blue_dark, 10); }
+		&.active { background: $blue_dark; }
+	}
+
+
 	&.btn-white {
 		background: #fff;
 		color: $blue;
@@ -47,8 +65,16 @@
 		&:hover { background: rgba(255,255,255,.8); }
 	}
 
+	&.btn-green {
+		background: $green;
+		@include box-shadow(none);
+
+		&:hover { background: lighten($green, 10); }
+		&.active { background: $green; }
+	}
+
 	&.btn-circle {
-		width: 140px;
+		width: 230px;
 		height: 140px;
 		display: inline-block;
 		@include rem('margin-top', 32px);
@@ -60,6 +86,7 @@
 		line-height: 1;
 		font-weight: normal;
 		text-align: center;
+		text-transform: uppercase;
 
 		&:hover { background: rgba(255,255,255,.8); }
 		div { @extend %vertical-align; }
@@ -67,7 +94,7 @@
 		span {
 			font-weight: bold;
 			display: block;
-			text-transform: uppercase;
+			text-transform: capitalize;
 		}
 	}
 }
@@ -154,4 +181,14 @@ button.close {
 
 .btn-home {
 
+}
+
+table {
+	.btn {
+		&.btn-blue, &.btn-brown, &.btn-white, &.btn-dark-blue, &.btn-green {
+			@include rem('padding', 4px);
+			@include border-radius(0);
+			vertical-align: text-top;
+		}
+	}
 }

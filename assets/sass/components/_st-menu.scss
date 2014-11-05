@@ -1,9 +1,16 @@
+.st-menu-open {
+	.st-menu {
+		@include box-shadow(0 4px 19px 11px rgba(0,0,0,.6));
+	}
+}
+
 .st-menu {
 	@include rem('padding', 12px 14px);
 	overflow-y: scroll;
 	height: 100%;
 	position: fixed;
-	
+	@include box-shadow(0 4px 19px 11px rgba(0,0,0,0));
+
 	ul {
 		@extend %reset;
 		list-style-type: none;

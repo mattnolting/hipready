@@ -36,7 +36,7 @@
 						<li><a href="3-my-account.php">3 - My Account</a></li>
 						<li><a href="4-add-user.php">4 - Add User</a></li>
 						<li><a href="5-add-billing.php">5 - Add Billing</a></li>
-						<li><a href="7-about-hipready.php">7 - About Hip Ready</a></li>
+						<li><a href="7-about-hipready.php">7 - About <span class="fancy">HipReady</span></a></li>
 						<li><a href="9-stable-home.php">9 - Stable Home</a></li>
 						<li><a href="10-current-sale.php">10 - Current Sale</a></li>
 					</ul>

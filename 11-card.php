@@ -6,7 +6,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close btn btn-white" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
+				<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
 				<h4 class="modal-title" id="myModalLabel">Add Horse to Card</h4>
 			</div>
 			<div class="filters">
@@ -76,7 +76,7 @@
 				<div class="card">
 					<header class="header">
 						<span class="edit"><i class="fa fa-pencil"></i></span>
-						<div class="title"><span>Timbertown Stables</span></div>
+						<div class="title"><span>Sweezey Morrell Sales</span></div>
 						<h2 class="line-through"><span>Keenland September</span></h2>
 						<select name="" id="" class="chosen-select" value="Add Looker">
 							<option value="Add Looker">+ Add Looker</option>

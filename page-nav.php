@@ -12,7 +12,7 @@
 			<li><a href="23-looker.php">View Lookers</a></li>
 			<li><a href="#">Change Password</a></li>
 			<li><a href="#">Help</a></li>
-			<li><a href="7-about-hipready.php">About HipReady</a></li>
+			<li><a href="7-about-hipready.php">About <span class="fancy">HipReady</span></a></li>
 			<li><a href="#">Change Password</a></li>
 			<li><a href="#">Logout</a></li>
 		</ul>

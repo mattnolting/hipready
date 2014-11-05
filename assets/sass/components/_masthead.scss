@@ -12,7 +12,7 @@
 	i.toggle {
 		background: rgba(0, 0, 0, .25);
 		@include font-size(56px);
-		@include rem('padding', 0 18px);
+		@include rem('padding', 0 20px);
 		float: right;
 		color: #fff;
 
@@ -39,15 +39,19 @@
 
 	.title {
 		width: 100%;
-		@include font-size(36px);
+//		@include font-size(36px);
 		position: absolute;
-		top: 6px;
+		top: 20px;
 		text-align: center;
+
+		@include media-query (xs) {
+			top: 11px;
+		}
 	}
 
 	.sub-title {
 		position: absolute;
-		top: 64px;
+		top: 68px;
 		z-index: 1;
 		width: 100%;
 		text-align: center;

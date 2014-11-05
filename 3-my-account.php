@@ -8,19 +8,19 @@
 
 	<main class="wrap container page more-pad" role="main">
 		<div class="row">
-			<div class="col-sm-offset-2 col-sm-8">
+			<div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
 				<div class="block-content block-user center">
 					<span class="edit"><i class="fa fa-pencil"></i></span>
-					<h1 class="fancy">Timbertown Stables</h1>
+					<h1>Sweezey Morrell Sales</h1>
 					<hr />
-					<h2>Wayne Sweezey</h2>
-					<div class="email">Waynesweezey@timbertownstable.com</div>
-					<div class="phone"><em>859.221.5422</em></div>
+					<h2>Liz Morrell</h2>
+					<div class="email">elizabeth.sweezey@gmail.com</div>
+					<div class="phone"><em>202-341-1101</em></div>
 					<div class="row btn-group-block">
-						<div class="col-xs-6">
-							<a href="9-stable-home.php" class="btn btn-blue center">My Stable</a>
+						<div class="col-sm-6">
+							<a href="9-stable-home.php" class="btn btn-blue center">My Consignment</a>
 						</div>
-						<div class="col-xs-6">
+						<div class="col-sm-6">
 							<a href="12-cards.php" class="btn btn-blue center">My Cards</a>
 						</div>
 					</div>
@@ -33,8 +33,8 @@
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 				<div class="btn-group btn-group-clear full-width center">
-					<a href="5-add-billing.php" class="btn btn-clear">Add Billing Details</a>
-					<a href="4-add-user.php" class="btn btn-clear">Add Account User</a>
+					<a href="5-add-billing.php" class="btn btn-clear">Billing Details</a>
+					<a href="4-add-user.php" class="btn btn-clear">Account User</a>
 				</div>
 			</div>
 		</div>

@@ -37,11 +37,47 @@ jQuery(document).ready(function($) {
 
 	editBlock();
 
-	function add() {
+	function selectTr() {
 		$('.selectable tr').click(function(){
 			$(this).toggleClass('selected');
+			$(this).find('.btn').toggleClass('active');
+		});
+	}
+
+	selectTr();
+
+	function add() {
+		var row = '<tr class="selected"><td>Hip#</td><td>Year</td><td>Horse</td><td><button class="btn btn-blue active">To See</button><button class="btn btn-green">Choose</button></td></tr>';
+
+		$('.btn#add-horse').click(function(){
+			$('#horses').append(row);
 		});
 	}
 
 	add();
+
+	function editable() {
+		$('.selectable td').click(function(){
+			$(this).toggleClass('active');
+
+			if ($('.selectable td.editable').hasClass('active')) {
+				$(this).attr('contenteditable','true').css({ 'background': '#fff' });
+			}
+			else {
+				$(this).attr('contenteditable','false').css({ 'background': 'none' });
+			}
+		});
+	}
+
+	editable();
+
+	var note = '<div class="note">Notes...<br /><a class="remove-note">- Remove Note</a></div>';
+	$('.modal .btn#add-note').click(function(){
+		$('#add-horse .content').append(note);
+	});
+
+	$('.remove-note').click(function(){
+		$(this).parent().remove();
+		console.log('test');
+	});
 });

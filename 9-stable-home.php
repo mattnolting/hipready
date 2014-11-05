@@ -1,6 +1,6 @@
 <?php include('head.html'); ?>
 
-<?php $page_title = 'Timber Town Stables'; ?>
+<?php $page_title = 'Sweezey Morrell Sales'; ?>
 
 <body class="page-add-user">
 
@@ -17,7 +17,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="btn-group btn-group-block">
-							<a href="11-card.php" class="btn submit round">Start New Card<i class="fa fa-angle-right"></i></a>
+							<a href="12-cards.php" class="btn submit round">Start New Card<i class="fa fa-angle-right"></i></a>
 							<a href="12-cards.php" class="btn submit round">View All Open Cards<i class="fa fa-angle-right"></i></a>
 						</div>
 					</div>
