@@ -6371,7 +6371,7 @@ figure.alignnone {
   color: white; }
 
 /* line 34, ../sass/elements/_helpers.scss */
-.valign, .btn.btn-circle div {
+.valign, .btn.btn-circle div, .page-home .btn-home div, .page-login .btn-home div {
   display: block;
   position: relative;
   top: 50%;
@@ -6438,6 +6438,9 @@ small {
 
 /* line 35, ../sass/elements/_base.scss */
 .label {
+  margin: 0;
+  padding: 0;
+  display: block;
   font-weight: bold;
   color: #fff;
   font-size: 32px;
@@ -6447,13 +6450,13 @@ small {
   font-weight: bold;
   line-height: 1; }
 
-/* line 43, ../sass/elements/_base.scss */
+/* line 46, ../sass/elements/_base.scss */
 :focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
 
-/* line 45, ../sass/elements/_base.scss */
+/* line 48, ../sass/elements/_base.scss */
 .page {
   padding-top: 90px;
   padding-top: 5.625rem;
@@ -6464,39 +6467,39 @@ small {
   padding-right: 45px;
   padding-right: 2.8125rem; }
   @media (min-width: 480px) {
-    /* line 45, ../sass/elements/_base.scss */
+    /* line 48, ../sass/elements/_base.scss */
     .page {
       padding-top: 160px;
       padding-top: 10rem; } }
   @media (min-width: 768px) {
-    /* line 45, ../sass/elements/_base.scss */
+    /* line 48, ../sass/elements/_base.scss */
     .page {
       padding-top: 120px;
       padding-top: 7.5rem; } }
   @media (min-width: 992px) {
-    /* line 45, ../sass/elements/_base.scss */
+    /* line 48, ../sass/elements/_base.scss */
     .page {
       padding-left: 9px;
       padding-right: 9px; } }
 
-/* line 66, ../sass/elements/_base.scss */
+/* line 69, ../sass/elements/_base.scss */
 .page-home .page, .page-login .page {
   padding-bottom: 40px;
   padding-bottom: 2.5rem;
   padding-top: 100px;
   padding-top: 6.25rem; }
   @media (min-width: 480px) {
-    /* line 66, ../sass/elements/_base.scss */
+    /* line 69, ../sass/elements/_base.scss */
     .page-home .page, .page-login .page {
       padding-top: 70px;
       padding-top: 4.375rem; } }
 
-/* line 76, ../sass/elements/_base.scss */
+/* line 79, ../sass/elements/_base.scss */
 .email {
   overflow: hidden;
   text-overflow: ellipsis; }
 
-/* line 81, ../sass/elements/_base.scss */
+/* line 84, ../sass/elements/_base.scss */
 .br {
   position: relative;
   width: 100%;
@@ -6504,7 +6507,7 @@ small {
   margin: 12px 0 18px 0;
   margin: 0.75rem 0 1.125rem 0;
   background: #52380f; }
-  /* line 88, ../sass/elements/_base.scss */
+  /* line 91, ../sass/elements/_base.scss */
   .br.br-arrow:after {
     content: url("../img/i_home-button.png");
     position: absolute;
@@ -7643,34 +7646,46 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
     .card footer .card-action {
       position: absolute;
       width: 100%;
-      bottom: -24px; }
-    /* line 97, ../sass/components/cards/_card.scss */
+      bottom: -24px;
+      left: 15px; }
+    /* line 98, ../sass/components/cards/_card.scss */
     .card footer.split-button button, .card footer.split-button .btn, .card footer.split-button .btn.btn-brown, .card footer.split-button .btn.btn-blue {
       width: 49.5%;
       float: left;
       padding: 16px 0;
       padding: 1rem 0;
-      -webkit-border-radius: 0 0 8px 0;
-      -moz-border-radius: 0 0 8px 0;
-      -ms-border-radius: 0 0 8px 0;
-      -o-border-radius: 0 0 8px 0;
-      border-radius: 0 0 8px 0; }
-      /* line 103, ../sass/components/cards/_card.scss */
-      .card footer.split-button button:first-child, .card footer.split-button .btn:first-child, .card footer.split-button .btn.btn-brown:first-child, .card footer.split-button .btn.btn-blue:first-child {
-        margin-right: 1%;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0;
+      margin-top: 4px;
+      margin-top: 0.25rem; }
+      /* line 105, ../sass/components/cards/_card.scss */
+      .card footer.split-button button:last-child, .card footer.split-button .btn:last-child, .card footer.split-button .btn.btn-brown:last-child, .card footer.split-button .btn.btn-blue:last-child {
+        -webkit-border-radius: 0 0 8px 0;
+        -moz-border-radius: 0 0 8px 0;
+        -ms-border-radius: 0 0 8px 0;
+        -o-border-radius: 0 0 8px 0;
+        border-radius: 0 0 8px 0; }
+      /* line 106, ../sass/components/cards/_card.scss */
+      .card footer.split-button button:nth-last-child(2), .card footer.split-button .btn:nth-last-child(2), .card footer.split-button .btn.btn-brown:nth-last-child(2), .card footer.split-button .btn.btn-blue:nth-last-child(2) {
         -webkit-border-radius: 0 0 0 8px;
         -moz-border-radius: 0 0 0 8px;
         -ms-border-radius: 0 0 0 8px;
         -o-border-radius: 0 0 0 8px;
         border-radius: 0 0 0 8px; }
-    /* line 110, ../sass/components/cards/_card.scss */
+      /* line 107, ../sass/components/cards/_card.scss */
+      .card footer.split-button button:nth-child(odd), .card footer.split-button .btn:nth-child(odd), .card footer.split-button .btn.btn-brown:nth-child(odd), .card footer.split-button .btn.btn-blue:nth-child(odd) {
+        margin-right: 1%; }
+    /* line 113, ../sass/components/cards/_card.scss */
     .card footer.sticky {
       padding: 6px;
       padding: 0.375rem; }
-  /* line 115, ../sass/components/cards/_card.scss */
+  /* line 118, ../sass/components/cards/_card.scss */
   .card .chosen-container .chosen-drop {
     background: #fff; }
-  /* line 119, ../sass/components/cards/_card.scss */
+  /* line 122, ../sass/components/cards/_card.scss */
   .card .note {
     position: relative;
     padding: 30px 20px 30px 50px;
@@ -7679,7 +7694,7 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
     font-size: 1.125rem;
     line-height: 24px;
     line-height: 1.5rem; }
-    /* line 124, ../sass/components/cards/_card.scss */
+    /* line 127, ../sass/components/cards/_card.scss */
     .card .note:before {
       content: "\f02d";
       color: #262626;
@@ -7691,20 +7706,20 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
       position: absolute;
       left: 10px;
       top: 30px; }
-  /* line 138, ../sass/components/cards/_card.scss */
+  /* line 141, ../sass/components/cards/_card.scss */
   .card table thead th:nth-child(3) {
     width: 40%; }
-  /* line 142, ../sass/components/cards/_card.scss */
+  /* line 145, ../sass/components/cards/_card.scss */
   .card table thead th:nth-child(4) {
     width: 30%; }
-  /* line 148, ../sass/components/cards/_card.scss */
+  /* line 151, ../sass/components/cards/_card.scss */
   .card table .btn {
     color: rgba(255, 255, 255, 0.5); }
-    /* line 151, ../sass/components/cards/_card.scss */
-    .card table .btn.active {
+    /* line 154, ../sass/components/cards/_card.scss */
+    .card table .btn.active, .card table .btn:hover {
       color: white; }
 
-/* line 158, ../sass/components/cards/_card.scss */
+/* line 161, ../sass/components/cards/_card.scss */
 button.card {
   padding: 0;
   border: none;
@@ -8773,20 +8788,32 @@ This file is generated by `grunt build`, do not edit it by hand.
   /* line 14, ../sass/components/_st-menu.scss */
   .st-menu ul {
     list-style-type: none;
-    border-top: 1px solid #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
     overflow-y: scroll; }
     /* line 20, ../sass/components/_st-menu.scss */
     .st-menu ul li {
-      padding: 12px 0;
-      padding: 0.75rem 0;
-      border-bottom: 1px solid #fff; }
-      /* line 24, ../sass/components/_st-menu.scss */
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+      /* line 23, ../sass/components/_st-menu.scss */
       .st-menu ul li a {
+        display: block;
+        padding: 12px 0;
+        padding: 0.75rem 0;
         color: #fff;
         font-size: 28px;
         font-size: 1.75rem;
         line-height: 39.2px;
-        line-height: 2.45rem; }
+        line-height: 2.45rem;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s; }
+        /* line 30, ../sass/components/_st-menu.scss */
+        .st-menu ul li a:hover {
+          padding-left: 10px;
+          text-decoration: none; }
+  /* line 38, ../sass/components/_st-menu.scss */
+  .st-menu .fa-home {
+    font-size: 48px; }
 
 /* line 1, ../sass/components/_nav-control.scss */
 .nav-control {
@@ -8817,19 +8844,46 @@ This file is generated by `grunt build`, do not edit it by hand.
     background: none; }
 /* line 9, ../sass/page-templates/_home.scss */
 .page-home .btn-home, .page-login .btn-home {
-  display: inline-block; }
+  display: inline-block;
+  padding: 0;
+  background: #fff;
+  border: 10px solid #52380f !important;
+  line-height: 1;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase; }
   @media (min-width: 480px) {
     /* line 9, ../sass/page-templates/_home.scss */
     .page-home .btn-home, .page-login .btn-home {
-      width: 340px;
-      padding: 60px 30px;
-      padding: 3.75rem 1.875rem;
+      width: 400px;
+      height: 240px;
+      padding-left: 30px;
+      padding-left: 1.875rem;
+      padding-right: 30px;
+      padding-right: 1.875rem;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       border-radius: 50%; } }
-/* line 23, ../sass/page-templates/_home.scss */
+  /* line 27, ../sass/page-templates/_home.scss */
+  .page-home .btn-home:hover, .page-login .btn-home:hover {
+    background: rgba(255, 255, 255, 0.8); }
+/* line 31, ../sass/page-templates/_home.scss */
 .page-home .logo, .page-login .logo {
   margin-bottom: 40px;
   margin-bottom: 2.5rem; }
+
+/* line 7, ../sass/page-templates/_horses.scss */
+.page-horses thead tr th:first-child {
+  width: 32%; }
+/* line 11, ../sass/page-templates/_horses.scss */
+.page-horses thead tr th:nth-child(2) {
+  width: 14%; }
+/* line 12, ../sass/page-templates/_horses.scss */
+.page-horses thead tr th:nth-child(3) {
+  width: 44%; }
+/* line 13, ../sass/page-templates/_horses.scss */
+.page-horses thead tr th:nth-child(4) {
+  width: 10%;
+  text-align: center; }

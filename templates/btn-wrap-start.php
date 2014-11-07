@@ -1,0 +1,1 @@
+<div class="col-xs-4 col-xs-offset-4 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">

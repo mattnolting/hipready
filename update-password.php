@@ -12,14 +12,12 @@
 				<form action="">
 					<div class="row">
 						<div class="col-xs-12">
-							<label>New Password</label>
-							<input type="text" placeholder="Password" />
+							<input type="text" placeholder="New Password" />
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12">
-							<label>Re-Type New Password</label>
-							<input type="text" placeholder="Password" />
+							<input type="text" placeholder="Re-type New Password" />
 						</div>
 					</div>
 					<div class="row center">

@@ -31,11 +31,9 @@
 		</div>
 		<br />
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-				<div class="btn-group btn-group-clear full-width center">
-					<a href="5-add-billing.php" class="btn btn-clear">Billing Details</a>
-					<a href="4-add-user.php" class="btn btn-clear">Account User</a>
-				</div>
+			<div class="col-xs-12 center">
+<!--				<a href="5-add-billing.php" class="btn btn-circle nomargin"><div><b>Billing</b></div></a>-->
+				<a href="4-add-user.php" class="btn btn-circle nomargin"><div><b>Add User</b></div></a>
 			</div>
 		</div>
 	</main>

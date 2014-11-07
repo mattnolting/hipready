@@ -6,14 +6,13 @@
 		</div>
 		<ul>
 			<li><a href="3-my-account.php">My Account</a></li>
-			<li><a href="9-stable-home.php">My Stable</a></li>
-			<li><a href="4-add-user.php">Add / Edit User</a></li>
-			<li><a href="10-current-sale.php">Change Sales</a></li>
-			<li><a href="23-looker.php">View Lookers</a></li>
-			<li><a href="#">Change Password</a></li>
+			<li><a href="11-card.php">Start New Card</a></li>
+			<li><a href="12-cards.php">My Cards</a></li>
+			<li><a href="9-stable-home.php">My Consignment</a></li>
+			<li><a href="20-sale-day.php">Upcoming Sales</a></li>
+			<li><a href="10-current-sale.php">Subscribe to Sales</a></li>
 			<li><a href="#">Help</a></li>
-			<li><a href="7-about-hipready.php">About <span class="fancy">HipReady</span></a></li>
-			<li><a href="#">Change Password</a></li>
+			<li><a href="contact-us.php">Contact</a></li>
 			<li><a href="#">Logout</a></li>
 		</ul>
 	</nav>

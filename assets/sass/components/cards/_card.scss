@@ -89,6 +89,7 @@
 			position: absolute;
 			width: 100%;
 			bottom: -24px;
+			left: 15px;
 		}
 
 		&.split-button {
@@ -98,11 +99,13 @@
 				width: 49.5%;
 				float: left;
 				@include rem('padding', 16px 0);
-				@include border-radius(0 0 8px 0);
+				@include border-radius(0);
+				@include rem('margin-top', 4px);
 
-				&:first-child {
+				&:last-child { @include border-radius(0 0 8px 0); }
+				&:nth-last-child(2) { @include border-radius(0 0 0 8px); }
+				&:nth-child(odd) {
 					margin-right: 1%;
-					@include border-radius(0 0 0 8px);
 				}
 			}
 		}
@@ -148,7 +151,7 @@
 		.btn {
 			color: rgba(255,255,255,.5);
 
-			&.active {
+			&.active, &:hover {
 				color: rgba(255,255,255,1);
 			}
 		}

@@ -14,16 +14,20 @@
 		<div class="row">
 			<div class="col-xs-12 center">
 				<a href="2-create-account.php" class="btn-block btn-home">
-					<h1>New User</h1>
-					<div class="br br-arrow"></div>
-					<h2 class="light">Create Account</h2>
+					<div>
+						<h1>New User</h1>
+						<div class="br br-arrow"></div>
+						<h2 class="light">Create Account</h2>
+					</div>
 				</a>
 			</div>
 			<div class="col-xs-12 center">
 				<a href="login.php" class="btn-block btn-home">
-					<h1>Existing User</h1>
-					<div class="br br-arrow"></div>
-					<h2 class="light">Login</h2>
+					<div>
+						<h1>Existing User</h1>
+						<div class="br br-arrow"></div>
+						<h2 class="light">Login</h2>
+					</div>
 				</a>
 			</div>
 		</div>

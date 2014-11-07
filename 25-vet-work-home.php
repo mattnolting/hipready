@@ -16,7 +16,6 @@
 						<br /><br />
 						<div class="btn-group btn-group-block">
 							<a href="#" class="btn submit round">Horse<i class="fa fa-angle-right"></i></a>
-							<a href="#" class="btn submit round">Vet<i class="fa fa-angle-right"></i></a>
 							<a href="#" class="btn submit round">Procedure / Report<i class="fa fa-angle-right"></i></a>
 						</div>
 					</div>

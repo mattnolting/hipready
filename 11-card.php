@@ -2,71 +2,71 @@
 
 <?php $page_title = 'Create New Card'; ?>
 
-<div class="modal fade list add" id="add-horse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" id="myModalLabel">Add Horse to Card</h4>
-			</div>
-			<div class="filters">
-				<span>Filter Horses</span>
-				<ul>
-					<li class="active">All Horses</li>
-					<li>Colts</li>
-					<li>Fillies</li>
-					<li>9/20</li>
-					<li>9/21</li>
-				</ul>
-			</div>
-			<div class="modal-body">
-				<table class="selectable">
-					<tr class="selected">
-						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
-						<td>400</td>
-						<td>'14</td>
-						<td>Crocdundeal (f)</td>
-					</tr>
-					<tr>
-						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
-						<td>405</td>
-						<td>'14</td>
-						<td>Crocdundeal (f)</td>
-					</tr>
-					<tr class="selected">
-						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
-						<td>410</td>
-						<td>'14</td>
-						<td>Crocdundeal (f)</td>
-					</tr>
-					<tr>
-						<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
-						<td>415</td>
-						<td>'14</td>
-						<td>Crocdundeal (f)</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade list" id="add-note" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close btn btn-white" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" id="myModalLabel">Add Note</h4>
-			</div>
-			<div class="modal-body">
-				<textarea>Lorem ipsum dolor sit...
-				</textarea>
-			</div>
-		</div>
-	</div>
-</div>
-
 <body class="page-card">
+
+	<div class="modal fade list add" id="add-horse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="myModalLabel">Add Horse to Card</h4>
+				</div>
+				<div class="filters">
+					<span>Filter Horses</span>
+					<ul>
+						<li class="active">All Horses</li>
+						<li>Colts</li>
+						<li>Fillies</li>
+						<li>9/20</li>
+						<li>9/21</li>
+					</ul>
+				</div>
+				<div class="modal-body">
+					<table class="selectable">
+						<tr class="selected">
+							<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
+							<td>400</td>
+							<td>'14</td>
+							<td>Crocdundeal (f)</td>
+						</tr>
+						<tr>
+							<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
+							<td>405</td>
+							<td>'14</td>
+							<td>Crocdundeal (f)</td>
+						</tr>
+						<tr class="selected">
+							<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
+							<td>410</td>
+							<td>'14</td>
+							<td>Crocdundeal (f)</td>
+						</tr>
+						<tr>
+							<td><i class="fa fa-check-circle"></i><i class="fa fa-minus-circle"></i></td>
+							<td>415</td>
+							<td>'14</td>
+							<td>Crocdundeal (f)</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade list" id="add-note" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn btn-white btn-small pull-right" data-dismiss="modal"><span aria-hidden="true">Done</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="myModalLabel">Add Note</h4>
+				</div>
+				<div class="modal-body">
+					<textarea>Lorem ipsum dolor sit...
+					</textarea>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<?php include('page-nav.php'); ?>
 
