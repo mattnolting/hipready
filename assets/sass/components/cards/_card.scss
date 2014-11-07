@@ -3,6 +3,7 @@
 	@include border-radius(16px);
 	background: #fff;
 	@include rem('margin-top', 50px);
+	display: block;
 
 	&:hover { text-decoration: none; }
 
@@ -152,4 +153,10 @@
 			}
 		}
 	}
+}
+
+button.card {
+	padding: 0;
+	border: none;
+	text-align: left;
 }

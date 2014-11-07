@@ -6974,8 +6974,7 @@ body {
 
 /* line 54, ../sass/elements/_layout.scss */
 .layout-grid .card {
-  width: 100%;
-  float: left; }
+  width: 100%; }
   @media (min-width: 768px) {
     /* line 54, ../sass/elements/_layout.scss */
     .layout-grid .card {
@@ -7522,11 +7521,12 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
   border-radius: 16px;
   background: #fff;
   margin-top: 50px;
-  margin-top: 3.125rem; }
-  /* line 7, ../sass/components/cards/_card.scss */
+  margin-top: 3.125rem;
+  display: block; }
+  /* line 8, ../sass/components/cards/_card.scss */
   .card:hover {
     text-decoration: none; }
-  /* line 9, ../sass/components/cards/_card.scss */
+  /* line 10, ../sass/components/cards/_card.scss */
   .card header {
     position: relative;
     text-align: center;
@@ -7540,11 +7540,11 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
     -o-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0; }
     @media (min-width: 768px) {
-      /* line 9, ../sass/components/cards/_card.scss */
+      /* line 10, ../sass/components/cards/_card.scss */
       .card header {
         padding: 26px 16px 20px;
         padding: 1.625rem 1rem 1.25rem; } }
-    /* line 21, ../sass/components/cards/_card.scss */
+    /* line 22, ../sass/components/cards/_card.scss */
     .card header .title {
       margin-top: 18px;
       margin-top: 1.125rem;
@@ -7556,7 +7556,7 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
       line-height: 1;
       text-align: center; }
       @media (min-width: 768px) {
-        /* line 21, ../sass/components/cards/_card.scss */
+        /* line 22, ../sass/components/cards/_card.scss */
         .card header .title {
           width: 90%;
           position: absolute;
@@ -7567,7 +7567,7 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
           margin-top: 0;
           margin-bottom: 12px;
           margin-bottom: 0.75rem; } }
-      /* line 37, ../sass/components/cards/_card.scss */
+      /* line 38, ../sass/components/cards/_card.scss */
       .card header .title span {
         background: #408821;
         -webkit-border-radius: 12px;
@@ -7581,7 +7581,7 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
         white-space: nowrap;
         display: block; }
         @media (min-width: 768px) {
-          /* line 37, ../sass/components/cards/_card.scss */
+          /* line 38, ../sass/components/cards/_card.scss */
           .card header .title span {
             font-size: 32px;
             font-size: 2rem;
@@ -7590,11 +7590,11 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
             display: inline-block;
             padding: 9px 38px;
             padding: 0.5625rem 2.375rem; } }
-    /* line 54, ../sass/components/cards/_card.scss */
+    /* line 55, ../sass/components/cards/_card.scss */
     .card header h2 {
       margin-top: 12px;
       margin-top: 0.75rem; }
-    /* line 56, ../sass/components/cards/_card.scss */
+    /* line 57, ../sass/components/cards/_card.scss */
     .card header .line-through {
       margin: 6px 0 20px;
       margin: 0.375rem 0 1.25rem;
@@ -7603,23 +7603,23 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
       line-height: 22.4px;
       line-height: 1.4rem;
       color: #fff; }
-      /* line 61, ../sass/components/cards/_card.scss */
+      /* line 62, ../sass/components/cards/_card.scss */
       .card header .line-through span {
         background: #408821; }
-      /* line 62, ../sass/components/cards/_card.scss */
+      /* line 63, ../sass/components/cards/_card.scss */
       .card header .line-through:after {
         background: #fff; }
-    /* line 65, ../sass/components/cards/_card.scss */
+    /* line 66, ../sass/components/cards/_card.scss */
     .card header .btn {
       margin-top: 10px;
       margin-top: 0.625rem; }
-    /* line 67, ../sass/components/cards/_card.scss */
+    /* line 68, ../sass/components/cards/_card.scss */
     .card header .edit {
       background: #2d5f17; }
-      /* line 70, ../sass/components/cards/_card.scss */
+      /* line 71, ../sass/components/cards/_card.scss */
       .card header .edit i {
         color: #408821; }
-  /* line 74, ../sass/components/cards/_card.scss */
+  /* line 75, ../sass/components/cards/_card.scss */
   .card .content {
     margin-bottom: 0;
     padding: 30px 20px;
@@ -7627,24 +7627,24 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none; }
-  /* line 81, ../sass/components/cards/_card.scss */
+  /* line 82, ../sass/components/cards/_card.scss */
   .card .header + .content {
     -webkit-border-radius: 0 0 12px 12px;
     -moz-border-radius: 0 0 12px 12px;
     -ms-border-radius: 0 0 12px 12px;
     -o-border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px; }
-  /* line 83, ../sass/components/cards/_card.scss */
+  /* line 84, ../sass/components/cards/_card.scss */
   .card footer {
     position: relative;
     padding: 30px 20px 50px 20px;
     padding: 1.875rem 1.25rem 3.125rem 1.25rem; }
-    /* line 87, ../sass/components/cards/_card.scss */
+    /* line 88, ../sass/components/cards/_card.scss */
     .card footer .card-action {
       position: absolute;
       width: 100%;
       bottom: -24px; }
-    /* line 96, ../sass/components/cards/_card.scss */
+    /* line 97, ../sass/components/cards/_card.scss */
     .card footer.split-button button, .card footer.split-button .btn, .card footer.split-button .btn.btn-brown, .card footer.split-button .btn.btn-blue {
       width: 49.5%;
       float: left;
@@ -7655,7 +7655,7 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
       -ms-border-radius: 0 0 8px 0;
       -o-border-radius: 0 0 8px 0;
       border-radius: 0 0 8px 0; }
-      /* line 102, ../sass/components/cards/_card.scss */
+      /* line 103, ../sass/components/cards/_card.scss */
       .card footer.split-button button:first-child, .card footer.split-button .btn:first-child, .card footer.split-button .btn.btn-brown:first-child, .card footer.split-button .btn.btn-blue:first-child {
         margin-right: 1%;
         -webkit-border-radius: 0 0 0 8px;
@@ -7663,14 +7663,14 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
         -ms-border-radius: 0 0 0 8px;
         -o-border-radius: 0 0 0 8px;
         border-radius: 0 0 0 8px; }
-    /* line 109, ../sass/components/cards/_card.scss */
+    /* line 110, ../sass/components/cards/_card.scss */
     .card footer.sticky {
       padding: 6px;
       padding: 0.375rem; }
-  /* line 114, ../sass/components/cards/_card.scss */
+  /* line 115, ../sass/components/cards/_card.scss */
   .card .chosen-container .chosen-drop {
     background: #fff; }
-  /* line 118, ../sass/components/cards/_card.scss */
+  /* line 119, ../sass/components/cards/_card.scss */
   .card .note {
     position: relative;
     padding: 30px 20px 30px 50px;
@@ -7679,7 +7679,7 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
     font-size: 1.125rem;
     line-height: 24px;
     line-height: 1.5rem; }
-    /* line 123, ../sass/components/cards/_card.scss */
+    /* line 124, ../sass/components/cards/_card.scss */
     .card .note:before {
       content: "\f02d";
       color: #262626;
@@ -7691,18 +7691,24 @@ table.compact tr, table.compact td, .layout-grid table tr, .layout-grid table td
       position: absolute;
       left: 10px;
       top: 30px; }
-  /* line 137, ../sass/components/cards/_card.scss */
+  /* line 138, ../sass/components/cards/_card.scss */
   .card table thead th:nth-child(3) {
     width: 40%; }
-  /* line 141, ../sass/components/cards/_card.scss */
+  /* line 142, ../sass/components/cards/_card.scss */
   .card table thead th:nth-child(4) {
     width: 30%; }
-  /* line 147, ../sass/components/cards/_card.scss */
+  /* line 148, ../sass/components/cards/_card.scss */
   .card table .btn {
     color: rgba(255, 255, 255, 0.5); }
-    /* line 150, ../sass/components/cards/_card.scss */
+    /* line 151, ../sass/components/cards/_card.scss */
     .card table .btn.active {
       color: white; }
+
+/* line 158, ../sass/components/cards/_card.scss */
+button.card {
+  padding: 0;
+  border: none;
+  text-align: left; }
 
 /* line 1, ../sass/components/cards/_card-simple.scss */
 .card.card-simple {

@@ -77,7 +77,7 @@
 					<header class="header">
 						<span class="edit"><i class="fa fa-pencil"></i></span>
 						<div class="title"><span>Sweezey Morrell Sales</span></div>
-						<h2 class="line-through"><span>Keenland September</span></h2>
+						<h2 class="line-through"><span>Keeneland September</span></h2>
 						<select name="" id="" class="chosen-select" value="Add Looker">
 							<option value="Add Looker">+ Add Looker</option>
 							<option value="Jon Gruden">Jon Gruden</option>

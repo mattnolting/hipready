@@ -9,7 +9,7 @@
 				<header class="header">
 					<span class="edit"><i class="fa fa-pencil"></i></span>
 					<div class="title"><span>Sweezey Morrell Sales</span></div>
-					<h2 class="line-through"><span>Keenland September</span></h2>
+					<h2 class="line-through"><span>Keeneland September</span></h2>
 					<select name="" id="" class="chosen-select" value="Add Looker">
 						<option value="Add Looker">+ Add Looker</option>
 						<option value="Jon Gruden">Jon Gruden</option>
@@ -106,7 +106,7 @@
 				</form>
 			</div>
 		</div>
-		<a data-toggle="modal" data-target="#add-horse" class="card">
+		<button data-toggle="modal" data-target="#add-horse" class="card">
 			<header class="header">
 				<div class="title"><span>Colin Kapernick</span></div>
 			</header>
@@ -135,8 +135,8 @@
 					</div>
 				</div>
 			</footer>
-		</a>
-		<a data-toggle="modal" data-target="#add-horse" class="card">
+		</button>
+		<button data-toggle="modal" data-target="#add-horse" class="card">
 			<header class="header">
 				<div class="title"><span>Bill Blatsky</span></div>
 			</header>
@@ -165,8 +165,8 @@
 					</div>
 				</div>
 			</footer>
-		</a>
-		<a data-toggle="modal" data-target="#add-horse" class="card">
+		</button>
+		<button data-toggle="modal" data-target="#add-horse" class="card">
 			<header class="header">
 				<div class="title"><span>Joseph Norris</span></div>
 			</header>
@@ -195,8 +195,8 @@
 					</div>
 				</div>
 			</footer>
-		</a>
-		<a data-toggle="modal" data-target="#add-horse" class="card">
+		</button>
+		<button data-toggle="modal" data-target="#add-horse" class="card">
 			<header class="header">
 				<div class="title"><span>Dave Milton</span></div>
 			</header>
@@ -225,8 +225,8 @@
 					</div>
 				</div>
 			</footer>
-		</a>
-		<a data-toggle="modal" data-target="#add-horse" class="card">
+		</button>
+		<button data-toggle="modal" data-target="#add-horse" class="card">
 			<header class="header">
 				<div class="title"><span>Tim Greenberg</span></div>
 			</header>
@@ -255,7 +255,7 @@
 					</div>
 				</div>
 			</footer>
-		</a>
+		</button>
 	</main>
 
 	<?php include('footer.html');?>

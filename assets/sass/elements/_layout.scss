@@ -53,7 +53,7 @@ body { background: url('../img/bg_body.jpg'); }
 
 	.card {
 		width: 100%;
-		float: left;
+
 
 		@include media-query (sm) {
 			width: 47%;

@@ -1,6 +1,6 @@
 <?php include('head.html'); ?>
 
-<?php $page_title = 'New User'; ?>
+<?php $page_title = 'Create Account'; ?>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

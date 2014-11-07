@@ -111,13 +111,13 @@ module.exports = function(grunt) {
           '*.php'
         ]
       }
-    },
-    clean: {
-      dist: [
-        'assets/css/main.min.css',
-        'assets/js/scripts.min.js'
-      ]
     }
+    //clean: {
+    //  dist: [
+    //    'assets/css/main.min.css',
+    //    'assets/js/scripts.min.js'
+    //  ]
+    //}
   });
 
   // Load tasks
